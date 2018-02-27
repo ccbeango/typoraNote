@@ -417,3 +417,47 @@ npm install less-loader less --save-dev
 
 
 
+27 `babel-node`:后台支持import语法
+
+安装插件
+
+```
+npm install babel-node --save
+```
+
+使用：`package.json`修改`script`的server为最新的server
+
+```json
+
+"scripts": {
+    ...
+    "server": "NODE_ENV=test nodemon --exec babel-node server/server.js",
+    "server_bak": "nodemon server/server.js"
+  },
+
+```
+
+设备`node`的运行环境为`test`，即`NODE_ENV=test`，默认启用`node`，改为启用`babel-node`，再启动`server`。启用之后就会发现，后台也支持import语法了。
+
+28 后端设置也支持jsx语法:
+
+创建`.babelrc`，然后将package.json中的babel字段粘贴至此，使整个项目全局都支持此babel配置的语法
+
+```json
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd-mobile",
+        "style": "css"
+      }
+    ],
+    "transform-decorators-legacy"
+  ]
+}
+```
+
