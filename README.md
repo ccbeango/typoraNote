@@ -10,7 +10,7 @@
 
 ## PHP
 
-* [PHP 多维数组排序 保持索引对应关系 巧用 uasort](./PHP/PHP 多维数组排序 保持索引对应关系 巧用 uasort.md)
+* [PHP 多维数组排序 保持索引对应关系 巧用 uasort](./PHP/PHP多维数组排序-保持索引对应关系,巧用uasort.md)
 
 ## Node
 
@@ -24,9 +24,9 @@
 
 ## Mysql
 
-* [JOIN ，LEFT JOIN ，ALL JOIN 等的区别和联系](./Mysql/JOIN ，LEFT JOIN ，ALL JOIN 等的区别和联系.md)
+* [JOIN,LEFT JOIN,ALL JOIN 等的区别和联系](./Mysql/JOIN,LEFT JOIN,ALL JOIN 等的区别和联系.md)
 
-##其他
+## 其他
 
 * [Debug模式操作](其他/Debug模式操作.md)
 
