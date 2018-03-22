@@ -69,6 +69,38 @@ npm install babel-plugin-transform-decorators-legacy —-save
   },
 ```
 
+非eject模式下：
+
+# 支持装饰器写法
+
+* 找到`node_modules/babel-preset-react-app/index.js`，然后加入装饰器支持。
+
+```js
+const plugins = [
+  require.resolve('babel-plugin-transform-decorators-legacy'),// 支持装饰器写法 增加此行
+  // Necessary to include regardless of the environment because
+  // in practice some other transforms (such as object-rest-spread)
+  // don't work without it: https://github.com/babel/babel/issues/7215
+  require.resolve('babel-plugin-transform-es2015-destructuring'),
+  // class { handleClick = () => { } }
+  require.resolve('babel-plugin-transform-class-properties'),
+```
+
+​
+
+* 同目录下打开`package.json`文件，末尾添加
+
+```
+"babel":  {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      "transform-decorators-legacy"
+    ]
+}
+```
+
 6.`redux` 状态管理，提供`createStore`  `applyMiddleware` 和 `compose`
 
 安装：
