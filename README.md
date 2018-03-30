@@ -6,12 +6,12 @@
 * [React按需加载（下）](/React/React按需加载（下）.md)
 * [构建自己的redux](/React/构建自己的redux.md)
 * [React零碎点总结](/React/React零碎点总结.md)
-* [Apollo-Client简介](/React/Apollo-Client简介)
+* [Apollo-Client简介](/React/Apollo-Client简介.md)
 
 
 ## PHP
 
-* [PHP 多维数组排序 保持索引对应关系 巧用 uasort](./PHP/PHP多维数组排序-保持索引对应关系,巧用uasort.md)
+* [PHP 多维数组排序保持索引对应关系巧用 uasort](./PHP/PHP多维数组排序-保持索引对应关系,巧用uasort.md)
 
 ## Node
 
@@ -22,6 +22,7 @@
 * [Linux/Linux系统目录结构](./Linux/Linux系统目录结构.md)
 * [Linux下搭建LNMP环境](./Linux/Linux下搭建LNMP环境.md)
 * [Linux下安装phpMyAdmin](./Linux/Linux下安装phpMyAdmin.md)
+* [小视频笔记](./Linux/小视频笔记.md)
 
 ## Mysql
 
