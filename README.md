@@ -22,7 +22,8 @@
 * [Linux/Linux系统目录结构](./Linux/Linux系统目录结构.md)
 * [Linux下搭建LNMP环境](./Linux/Linux下搭建LNMP环境.md)
 * [Linux下安装phpMyAdmin](./Linux/Linux下安装phpMyAdmin.md)
-* [小视频笔记](./Linux/小视频笔记.md)
+* [小视频笔记（一）](./Linux/小视频笔记（一）.md)
+* [小视频笔记（二）](./Linux/小视频笔记（二）.md)
 
 ## Mysql
 
