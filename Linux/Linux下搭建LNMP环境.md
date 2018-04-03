@@ -110,336 +110,331 @@ cp /usr/local/php/etc/php-fpm.d/www.conf.default /usr/local/php/etc/php-fpm.d/ww
      vi  /etc/init.d/php-fpm
      ```
 
-	2. 写入脚本并保存退出
+2. 写入脚本并保存退出
 
-    ```shell
-    #!/bin/sh
-           #
-           # php-fpm - this script starts and stops the php-fpm daemin
-           #
-           # chkconfig: - 85 15
-           # processname: php-fpm
-           # config:      /usr/local/php/etc/php-fpm.conf
+     ```shell
+     #!/bin/sh
+            #
+            # php-fpm - this script starts and stops the php-fpm daemin
+            #
+            # chkconfig: - 85 15
+            # processname: php-fpm
+            # config:      /usr/local/php/etc/php-fpm.conf
 
-           set -e
+            set -e
 
-           PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-           DESC="php-fpm daemon"
-           NAME=php-fpm
-           DAEMON=/usr/local/php/sbin/$NAME     
-           CONFIGFILE=/usr/local/php/etc/php-fpm.conf   
-           PIDFILE=/usr/local/php/var/run/$NAME.pid   
-           SCRIPTNAME=/etc/init.d/$NAME  
-           
-           # If the daemon file is not found, terminate the script.
-           test -x $DAEMON || exit 0
+            PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+            DESC="php-fpm daemon"
+            NAME=php-fpm
+            DAEMON=/usr/local/php/sbin/$NAME     
+            CONFIGFILE=/usr/local/php/etc/php-fpm.conf   
+            PIDFILE=/usr/local/php/var/run/$NAME.pid   
+            SCRIPTNAME=/etc/init.d/$NAME  
+            
+            # If the daemon file is not found, terminate the script.
+            test -x $DAEMON || exit 0
 
-           d_start(){
-               $DAEMON -y $CONFIGFILE || echo -n " already running"
-           }
+            d_start(){
+                $DAEMON -y $CONFIGFILE || echo -n " already running"
+            }
 
-           d_stop(){
-               kill -QUIT `cat $PIDFILE` || echo -n " no running"
-           }
+            d_stop(){
+                kill -QUIT `cat $PIDFILE` || echo -n " no running"
+            }
 
-           d_reload(){
-               kill -HUP `cat $PIDFILE` || echo -n " could not reload"
-           }
+            d_reload(){
+                kill -HUP `cat $PIDFILE` || echo -n " could not reload"
+            }
 
-           case "$1" in
-               start)
-                   echo -n "Starting $DESC: $NAME"
-                   d_start
-                   echo "."
-                   ;;
-               stop)
-                   echo -n "Stopping $DESC: $NAME"
-                   d_stop
-                   echo "."
-                   ;;
-               reload)
-                   echo -n "Reloading $DESC configuration..."
-                   d_reload
-                   echo "Reloaded."
-                   ;;
-               restart)
-                   echo -n "Restarting $DESC: $NAME"
-                   d_stop
-                   # Sleep for two seconds before starting again, this should give the nginx daemon some time to perform a graceful stop
-                   sleep 2
-                   d_start
-                   echo "."
-                   ;;
-               *)
-                   echo "Usage: $SCRIPTNAME {start|stop|restart|force-reload)" >&2
-                   exit 3
-                   ;;
-           esac
-           exit 0
-    ```
+            case "$1" in
+                start)
+                    echo -n "Starting $DESC: $NAME"
+                    d_start
+                    echo "."
+                    ;;
+                stop)
+                    echo -n "Stopping $DESC: $NAME"
+                    d_stop
+                    echo "."
+                    ;;
+                reload)
+                    echo -n "Reloading $DESC configuration..."
+                    d_reload
+                    echo "Reloaded."
+                    ;;
+                restart)
+                    echo -n "Restarting $DESC: $NAME"
+                    d_stop
+                    # Sleep for two seconds before starting again, this should give the nginx daemon some time to perform a graceful stop
+                    sleep 2
+                    d_start
+                    echo "."
+                    ;;
+                *)
+                    echo "Usage: $SCRIPTNAME {start|stop|restart|force-reload)" >&2
+                    exit 3
+                    ;;
+            esac
+            exit 0
+     ```
 
-    3. 修改权限
+ 3.  修改权限
 
-       ```shell
-       chmod a+x php-fpm
-       ```
+     ```shell
+     chmod a+x php-fpm
+     ```
 
-    4. 测试并设置开机自启
+ 4.  测试并设置开机自启
 
-       ```shell
-       /etc/init.d/php-fpm --help
+     ```shell
+     $ /etc/init.d/php-fpm --help
 
-       Usage: /etc/init.d/php-fpm {start|stop|restart|force-reload)
+        Usage: /etc/init.d/php-fpm {start|stop|restart|force-reload)
 
-       chkconfig php-fpm on
+     $ chkconfig php-fpm on
+     ```
 
-       # 查看 
+     ​
 
-       chkconfig —list
 
-       ```
 
-       ![](./images/Linux下搭建LNMP环境02.png)
+​    
 
-    ​
+## 二、安装Nginx
 
-    ## 二、安装Nginx
+### 1.官网上下载Nginx，并安装依赖
 
-    ### 1.官网上下载Nginx，并安装依赖
+```shell
+yum -y install gcc pcre-devel zlib-devel openssl openssl-devel 
+```
 
-    ```shell
-    yum -y install gcc pcre-devel zlib-devel openssl openssl-devel 
-    ```
+### 2.安装
 
-    ### 2.安装
+```shell
+## 解压
+tar -zxvf nginx-1.9.9.tar.gz
+##进入nginx目录
+cd nginx-1.9.9
+## 配置
+./configure --prefix=/usr/local/nginx
+# make
+make
+make install
 
-    ```shell
-    ## 解压
-    tar -zxvf nginx-1.9.9.tar.gz
-    ##进入nginx目录
-    cd nginx-1.9.9
-    ## 配置
-    ./configure --prefix=/usr/local/nginx
-    # make
-    make
-    make install
+# cd到刚才配置的安装目录/usr/loca/nginx/
+./sbin/nginx -t
 
-    # cd到刚才配置的安装目录/usr/loca/nginx/
-    ./sbin/nginx -t
+提示成功
+nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok
+nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful
+```
 
-    提示成功
-    nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok
-    nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful
-    ```
+### 3.访问
 
-    ### 3.访问
+浏览器中访问ip，网页没有任何显示，是防火墙，80端口没开，开启80端口
 
-    浏览器中访问ip，网页没有任何显示，是防火墙，80端口没开，开启80端口
+```shell
+/sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+/etc/rc.d/init.d/iptables save
+/etc/init.d/iptables restart
+```
 
-    ```shell
-    /sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT
-    /etc/rc.d/init.d/iptables save
-    /etc/init.d/iptables restart
-    ```
+再访问就正常了。
 
-    再访问就正常了。
+### 4.配置Nginx
 
-    ### 4.配置Nginx
+编辑nginx配置文件/usr/local/nginx/conf/nginx.conf，主要修改nginx的server {}配置块中的内容，修改location块，追加index.php让nginx服务器默认支持index.php为首页：
 
-    编辑nginx配置文件/usr/local/nginx/conf/nginx.conf，主要修改nginx的server {}配置块中的内容，修改location块，追加index.php让nginx服务器默认支持index.php为首页：
+![](./images/Linux下搭建LNMP环境03.png)
 
-    ![](./images/Linux下搭建LNMP环境03.png)
+打开php配置模块：
 
-    打开php配置模块：
+![](./images/Linux下搭建LNMP环境04.png)
 
-    ![](./images/Linux下搭建LNMP环境04.png)
+这里面很多都是默认的，`root`是配置php程序放置的根目录，主要修改的就是`fastcgi_param`中的`/scripts`为`$document_root`
 
-    这里面很多都是默认的，`root`是配置php程序放置的根目录，主要修改的就是`fastcgi_param`中的`/scripts`为`$document_root`
+修改完这些保存并退出，然后重启nginx:
 
-    修改完这些保存并退出，然后重启nginx:
+```shell
+/usr/local/nginx/sbin/nginx -s reload
+```
 
-    ```shell
-    /usr/local/nginx/sbin/nginx -s reload
-    ```
+### 5.测试
 
-    ### 5.测试
+创建index.php：
 
-    创建index.php：
+```php
+<?php
+    phpinfo();
+?>
+```
 
-    ```php
-    <?php
-        phpinfo();
-    ?>
-    ```
+访问：
 
-    访问：
+![](./images/Linux下搭建LNMP环境05.png)
 
-    ![](./images/Linux下搭建LNMP环境05.png)
+### 6.配置Nginx全局变量
 
-    ### 6.配置Nginx全局变量
+```shell
+# 在linux系统的/etc/init.d/目录下创建nginx文件
+vim /etc/init.d/nginx
+```
 
-    ```shell
-    # 在linux系统的/etc/init.d/目录下创建nginx文件
-    vim /etc/init.d/nginx
-    ```
+在文件中添加如下脚本，自定义安装的话：
 
-    在文件中添加如下脚本，自定义安装的话：
+```shell
+nginx=”/usr/sbin/nginx”                         #修改成nginx执行程序的路径。
+NGINX_CONF_FILE=”/etc/nginx/nginx.conf”         #修改成配置文件的路径。
+```
 
-    ```shell
-    nginx=”/usr/sbin/nginx”                         #修改成nginx执行程序的路径。
-    NGINX_CONF_FILE=”/etc/nginx/nginx.conf”         #修改成配置文件的路径。
-    ```
-
-    ```shell
-    #!/bin/sh
-    #
-    # nginx - this script starts and stops the nginx daemon
-    #
-    # chkconfig:   - 85 15
-    # description:  Nginx is an HTTP(S) server, HTTP(S) reverse \
-    #               proxy and IMAP/POP3 proxy server
-    # Source function library.
-    . /etc/rc.d/init.d/functions
-    # Source networking configuration.
-    . /etc/sysconfig/network
-    # Check that networking is up.
-    [ "$NETWORKING" = "no" ] && exit 0
-    nginx="/usr/local/nginx/sbin/nginx"
-    prog=$(basename $nginx)
-    NGINX_CONF_FILE="/usr/local/nginx/conf/nginx.conf"
-    [ -f /etc/sysconfig/nginx ] && . /etc/sysconfig/nginx
-    lockfile=/var/lock/subsys/nginx
-    make_dirs() {
-       # make required directories
-       user=`nginx -V 2>&1 | grep "configure arguments:" | sed 's/[^*]*--user=\([^ ]*\).*/\1/g' -`
-       options=`$nginx -V 2>&1 | grep 'configure arguments:'`
-       for opt in $options; do
-           if [ `echo $opt | grep '.*-temp-path'` ]; then
-               value=`echo $opt | cut -d "=" -f 2`
-               if [ ! -d "$value" ]; then
-                   # echo "creating" $value
-                   mkdir -p $value && chown -R $user $value
-               fi
+```shell
+#!/bin/sh
+#
+# nginx - this script starts and stops the nginx daemon
+#
+# chkconfig:   - 85 15
+# description:  Nginx is an HTTP(S) server, HTTP(S) reverse \
+#               proxy and IMAP/POP3 proxy server
+# Source function library.
+. /etc/rc.d/init.d/functions
+# Source networking configuration.
+. /etc/sysconfig/network
+# Check that networking is up.
+[ "$NETWORKING" = "no" ] && exit 0
+nginx="/usr/local/nginx/sbin/nginx"
+prog=$(basename $nginx)
+NGINX_CONF_FILE="/usr/local/nginx/conf/nginx.conf"
+[ -f /etc/sysconfig/nginx ] && . /etc/sysconfig/nginx
+lockfile=/var/lock/subsys/nginx
+make_dirs() {
+   # make required directories
+   user=`nginx -V 2>&1 | grep "configure arguments:" | sed 's/[^*]*--user=\([^ ]*\).*/\1/g' -`
+   options=`$nginx -V 2>&1 | grep 'configure arguments:'`
+   for opt in $options; do
+       if [ `echo $opt | grep '.*-temp-path'` ]; then
+           value=`echo $opt | cut -d "=" -f 2`
+           if [ ! -d "$value" ]; then
+               # echo "creating" $value
+               mkdir -p $value && chown -R $user $value
            fi
-       done
-    }
-    start() {
-        [ -x $nginx ] || exit 5
-        [ -f $NGINX_CONF_FILE ] || exit 6
-        make_dirs
-        echo -n $"Starting $prog: "
-        daemon $nginx -c $NGINX_CONF_FILE
-        retval=$?
-        echo
-        [ $retval -eq 0 ] && touch $lockfile
-        return $retval
-    }
-    stop() {
-        echo -n $"Stopping $prog: "
-        killproc $prog -QUIT
-        retval=$?
-        echo
-        [ $retval -eq 0 ] && rm -f $lockfile
-        return $retval
-    }
-    restart() {
-        configtest || return $?
-        stop
-        sleep 1
-        start
-    }
-    reload() {
-        configtest || return $?
-        echo -n $"Reloading $prog: "
-        killproc $nginx -HUP
-        RETVAL=$?
-        echo
-    }
-    force_reload() {
-        restart
-    }
-    configtest() {
-      $nginx -t -c $NGINX_CONF_FILE
-    }
-    rh_status() {
-        status $prog
-    }
-    rh_status_q() {
-        rh_status >/dev/null 2>&1
-    }
-    case "$1" in
-        start)
-            rh_status_q && exit 0
-            $1
+       fi
+   done
+}
+start() {
+    [ -x $nginx ] || exit 5
+    [ -f $NGINX_CONF_FILE ] || exit 6
+    make_dirs
+    echo -n $"Starting $prog: "
+    daemon $nginx -c $NGINX_CONF_FILE
+    retval=$?
+    echo
+    [ $retval -eq 0 ] && touch $lockfile
+    return $retval
+}
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog -QUIT
+    retval=$?
+    echo
+    [ $retval -eq 0 ] && rm -f $lockfile
+    return $retval
+}
+restart() {
+    configtest || return $?
+    stop
+    sleep 1
+    start
+}
+reload() {
+    configtest || return $?
+    echo -n $"Reloading $prog: "
+    killproc $nginx -HUP
+    RETVAL=$?
+    echo
+}
+force_reload() {
+    restart
+}
+configtest() {
+  $nginx -t -c $NGINX_CONF_FILE
+}
+rh_status() {
+    status $prog
+}
+rh_status_q() {
+    rh_status >/dev/null 2>&1
+}
+case "$1" in
+    start)
+        rh_status_q && exit 0
+        $1
+        ;;
+    stop)
+        rh_status_q || exit 0
+        $1
+        ;;
+    restart|configtest)
+        $1
+        ;;
+    reload)
+        rh_status_q || exit 7
+        $1
+        ;;
+    force-reload)
+        force_reload
+        ;;
+    status)
+        rh_status
+        ;;
+    condrestart|try-restart)
+        rh_status_q || exit 0
             ;;
-        stop)
-            rh_status_q || exit 0
-            $1
-            ;;
-        restart|configtest)
-            $1
-            ;;
-        reload)
-            rh_status_q || exit 7
-            $1
-            ;;
-        force-reload)
-            force_reload
-            ;;
-        status)
-            rh_status
-            ;;
-        condrestart|try-restart)
-            rh_status_q || exit 0
-                ;;
-        *)
-            echo $"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}"
-            exit 2
-    esac
-    ```
+    *)
+        echo $"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}"
+        exit 2
+esac
+```
 
-    保存脚本文件后设置文件的执行权限:
+保存脚本文件后设置文件的执行权限:
 
-    ```shell
-    chmod a+x /etc/init.d/nginx   # a+x参数表示 ==> all user can execute  所有用户可执行
-    ```
+```shell
+chmod a+x /etc/init.d/nginx   # a+x参数表示 ==> all user can execute  所有用户可执行
+```
 
-    然后就可以通过这个脚本对nginx进行管理了
+然后就可以通过这个脚本对nginx进行管理了
 
-    ```shell
-    /etc/init.d/nginx —status-all
+```shell
+/etc/init.d/nginx —status-all
 
-    Usage: /etc/init.d/nginx {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}
-    ```
+Usage: /etc/init.d/nginx {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}
+```
 
-    **使用chkconfig管理列表：**
+**使用chkconfig管理列表：**
 
-     1.  先将nginx服务加入chkconfig管理列表：
+ 1.  先将nginx服务加入chkconfig管理列表：
 
-         ```
-         chkconfig --add /etc/init.d/nginx
-         ```
+     ```shell
+     chkconfig --add /etc/init.d/nginx
+     ```
 
-    	2. 加完这个之后，就可以使用service对nginx进行启动，重启等操作
+ 2.  加完这个之后，就可以使用service对nginx进行启动，重启等操作
 
-        ```shell
-        service nginx --status-all
-        Usage: /etc/init.d/nginx {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}
-        ```
+      ```shell
+     $ service nginx --status-all
+     Usage: /etc/init.d/nginx {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}
+      ```
 
-    	3. 设置终端模式开机启动：
+ 3.  设置终端模式开机启动
 
-        ```shell
-        chkconfig nginx on
-        ```
+     ```shell
+      $ chkconfig nginx on
+     ```
 
-    	4. 查看：
+ 4.  查看
 
-        ```
-        chkconfig --list
-        ```
-
-        ​
+      ```shell
+         chkconfig --list      
+      ```
 
 ## 三、安装Mysql
 
