@@ -8,6 +8,9 @@
 * [React零碎点总结](/React/React零碎点总结.md)
 * [Apollo-Client简介](/React/Apollo-Client简介.md)
 
+## JS
+
+* [关于JSON](./JavaScript/关于JSON.md)
 
 ## PHP
 
@@ -23,7 +26,8 @@
 * [Linux下搭建LNMP环境](./Linux/Linux下搭建LNMP环境.md)
 * [Linux下安装phpMyAdmin](./Linux/Linux下安装phpMyAdmin.md)
 * [小视频笔记（一）](./Linux/小视频笔记（一）.md)
-* [小视频笔记（二）](./Linux/小视频笔记（二）.md)
+* [小视频笔记（二）](./Linux/小视频笔记(二).md)
+* [小视频笔记（三）](./Linux/小视频笔记(三).md)
 
 ## Mysql
 
