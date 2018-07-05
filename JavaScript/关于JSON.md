@@ -76,15 +76,17 @@ var values = [23, "hello", true];
     "authors": [
         "Nicholas C. Zakas"
     ],
-    edition: 3,
-    year: 2011 },
+    "edition": 3,
+    "year": 2011 
+    },
     {
          "title": "Professional JavaScript",
          "authors": [
               "Nicholas C. Zakas"
          ],
-    edition: 2,
-    year: 2009 },
+    "edition": 2,
+    "year": 2009 
+    },
     {
          "title": "Professional Ajax",
          "authors": [
@@ -92,8 +94,8 @@ var values = [23, "hello", true];
              "Jeremy McPeak",
              "Joe Fawcett"
          ],
-         edition: 2,
-         year: 2008
+         "edition": 2,
+         "year": 2008
     }
 ]
 ```
@@ -185,13 +187,13 @@ var jsonText = JSON.stringify(book, ["title", "edition"]);
 
 ```javascript
 var book = {
-                    "title": "Professional JavaScript",
-                    "authors": [
-                        "Nicholas C. Zakas"
-                    ],
-					edition: 3,
-					year: 2011 
-			};
+    "title": "Professional JavaScript",
+    "authors": [
+        "Nicholas C. Zakas"
+    ],
+    edition: 3,
+    year: 2011 
+};
 var jsonText = JSON.stringify(book, function(key, value){ 		switch(key){
         case "authors":
             return value.join(",")

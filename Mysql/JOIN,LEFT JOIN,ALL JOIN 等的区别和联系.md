@@ -1,3 +1,5 @@
+
+
 # JOIN ，LEFT JOIN ，ALL JOIN 等的区别和联系
 
 `left join` (左联接) 返回包括左表中的所有记录和右表中联结字段相等的记录
