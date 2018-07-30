@@ -35,7 +35,7 @@
 * [JOIN,LEFT JOIN,ALL JOIN 等的区别和联系](./Mysql/JOIN,LEFT JOIN,ALL JOIN 等的区别和联系.md)
 * [join语句的正确使用](./Mysql/join语句的正确使用.md)
 
-##  其他
+## 其他
 
 * [Debug模式操作](其他/Debug模式操作.md)
 
