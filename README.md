@@ -11,6 +11,7 @@
 ## JS
 
 * [关于JSON](./JavaScript/关于JSON.md)
+* [异步编程](./JavaScript/异步编程.md)
 
 ## PHP
 
