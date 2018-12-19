@@ -38,4 +38,6 @@
 ## 其他
 
 * [Debug模式操作](其他/Debug模式操作.md)
+* [爬墙](其他/爬墙.md)
+* [写给非专业人士看的 Shadowsocks简介](其他/写给非专业人士看的 Shadowsocks简介.md)
 
