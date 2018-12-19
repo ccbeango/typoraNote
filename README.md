@@ -32,12 +32,12 @@
 
 ## Mysql
 
-* [JOIN,LEFT JOIN,ALL JOIN 等的区别和联系](./Mysql/JOIN,LEFT JOIN,ALL JOIN 等的区别和联系.md)
+* [JOIN,LEFT JOIN,ALL JOIN 等的区别和联系](./Mysql/JOIN,LEFTJOIN,ALLJOIN等的区别和联系.md)
 * [join语句的正确使用](./Mysql/join语句的正确使用.md)
 
 ## 其他
 
 * [Debug模式操作](其他/Debug模式操作.md)
 * [爬墙](其他/爬墙.md)
-* [写给非专业人士看的 Shadowsocks简介](其他/写给非专业人士看的 Shadowsocks简介.md)
+* [写给非专业人士看的Shadowsocks简介](其他/写给非专业人士看的Shadowsocks简介.md)
 
