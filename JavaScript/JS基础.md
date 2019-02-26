@@ -368,4 +368,165 @@
       String.fromCharCode(104, 101, 108, 108, 111); // "hello"
       ```
 
-      
+21. 内置对象的定义是：由JS实现提供的、不依赖于宿主环境的对象，这些对象在JS程序执行之前就已经存在了。即在使用时开发人员不必显示地实例化内置对象，因为它们已经实例化了。内置对象：`Object`、`Array`、`String`。JS还定义了两个单体内置对象`Global`、`Math`。
+
+22. `Global`对象是一个很特别的对象，不管从什么角度看，这个对象都是不存在的。JS中的`Global`对象：不属于任何其他对象的属性和方法，最终都是它的属性和方法。事实上没有全局变量或全局函数；所有在全局作用域中定义的属性和函数，都是`Global`对象的属性。诸如`isNan()`、`isFinite()`、`parseInt()`以及`parseFloat()`实际上全都是`Global`对象的方法。
+
+23. `Global`对象的其他方法：`encodeURI()`、`encodeURIComopnent()`可以对URI（Uniform Resource Identifiers，通用资源标识符）进行编码，它们用特殊的UTF-8编码替换所有无效的字符，从而让浏览器能够接受和理解。
+
+    * `encodeURI()`主要用于整个URI，`encodeURIComopnent()`用于对URI的某一段进行编码。区别在于`encodeURI()`不会对本身属于URI的特殊字符进行编码，例如冒号、正斜杠、问号和井字号；而`encodeURIComponent()`则会对它发现的任何非标准字符进行编码。第二个使用更多，因为实践中更常见的是对查询字符串参数而不是基础URI进行编码。
+
+      ```javascript
+      let uri = "http://www.wrox.com/illegal value.htm#start";
+      //"http://www.wrox.com/illegal%20value.htm#start"
+      console.log(encodeURI(uri));
+      //"http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.htm%23start"
+      console.log(encodeURIComponent(uri));
+      ```
+
+    * `decodeURI()`、`decodeURIComponent()`，第一个只对`encodeURI()`替换的字符进行编码。第二个可以解码任何特殊字符的编码。
+
+      ```javascript
+      let uri = "http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.htm%23start";
+          //http%3A%2F%2Fwww.wrox.com%2Fillegal value.htm%23start
+      console.log(decodeURI(uri));
+      //http://www.wrox.com/illegal value.htm#start
+      console.log(decodeURIComponent(uri));
+      ```
+
+    * `eval()`：将传入的参数当做实际的JS语句来解析，然后把执行结果插入到原位置。
+
+    * `Global`对象的属性：
+
+      ![](./images/JS基础01.png)
+
+24. Math对象的属性：大都是数学计算中可能用到的一些特殊值。
+
+25. Math对象的方法：
+
+    * `min()`、`max()`确定一组数之中的最小值和最大值。
+
+    * 舍入方法：`ceil()`：向上舍入；`floor()`向下舍入；`round()`：四舍五入
+
+    * `random()`：返回大于等于0小于1的一个随机数
+
+    * 其他方法：
+
+      ![](./images/JS基础02.png)
+
+## 面向对象的程序设计
+
+1. `ECMA-262`把对象定义为：无序属性的集合，其属性可以包含基本值、对象或者函数，即对象是一组没有特定顺序的值。
+
+2. 数据属性和访问器属性：数据属性包含一个数据值的位置；访问器属性包含一对`getter()`和`setter()`函数，不过这两个函数都不是必须的。
+
+3. 创建对象的几种模式：
+
+4. 工厂模式：
+
+   ```javascript
+   function createPerson(name, age, job) {
+       var o = new Object();
+       o.name = name;
+       o.age = age;
+       o.job = job;
+       o.sayName = function () {
+           alert(this.name);
+       };
+       return o;
+   }
+   let person1 = createPerson("Nicholas", 29, "Software Engineer");
+   let person2 = createPerson("Greg", 27, "Doctor");
+   ```
+
+   函数`createPerson()`能根据接受的参数来构建一个包含所有必要信息的`Person`对象。此模式虽然解决了创建多个相似对象的问题，但没有解决对象的识别问题即怎样知道一个对象的类型。
+
+5. 构造函数模式：JS的构造函数可用来创建特定类型的对象，如Object和Array这样的原生构造函数。也可以创建自定义构造函数，从而定义自定义对象类型的属性和方法。
+
+   ```javascript
+   function Person(name, age, job) {
+       this.name = name;
+       this.age = age;
+       this.job = job;
+       this.sayName = function () {
+           alert(this.name);
+       };
+   }
+   let person1 = new Person("Nicholas", 29, "Software Engineer");
+   let person2 = new Person("Greg", 27, "Doctor");
+   ```
+
+   与工厂模式不同的是：没有显示地创建对象；直接将属性和方法赋给了`this`对象；没有`return`语句；函数名`Person`使用的是大写字母P，主要为了区别JS中的其他函数；因为构造函数本身也是函数，只不过可以用来创建对象而已。
+
+   这种方式调用构造函数会经过以下4个步骤：
+
+   1. 创建一个新对象
+   2. 将构造函数的作用域赋给新对象，因此this就指向了这个新对象；
+   3. 执行构造函数中的代码，为这个对象添加属性；
+   4. 返回新对象。
+
+   这两个对象都有`constructor`属性，该属性指向`Person`。
+
+   ```javascript
+   console.log(person1.constructor == Person); // true
+   
+   console.log(person2.constructor == Person); // true
+   ```
+
+   构造函数和普通函数没区别，通过new操作符调用就可以作为构造函数，不通过new调用，就是普通函数。
+
+   使用构造函数的主要问题是每个方法都要在每个实例上重新创建一遍。前面的`person1`、`person2`都有一个名为`sayName()`的方法，但这两个方法不是同一个`Function`的实例。因为JS中函数是对象，所以每定义一个函数，也就实例化了一个对象。从逻辑上讲，此时的构造函数也可以这样定义：
+
+   ```javascript
+   function Person(name, age, job) {
+       this.name = name;
+       this.age = age;
+       this.job = job;
+       this.sayName = new Function("alert(this.name)");                
+   }
+   ```
+
+   这样看，更容易看明白，每个`Person`实例都包含一个不同的`Function`实例。也就是以这种方式创建函数，会导致不同的作用域链和标识符解析，但创建`Function`新实例的机制仍然相同。因此不同实例上的同名函数是不相等的。创建两个完成同样任务的`Function`实例没有必要，且有`this`对象在，不用再代码执行前就把函数绑定到特定对象上面。可以把函数定义转移到构造函数外部来解决这个问题。
+
+   ```javascript
+   function Person(name, age, job) {
+       this.name = name;
+       this.age = age;
+       this.job = job;
+       this.sayName = sayName;
+   }
+   function sayName() {
+       alert(this.name);
+   }
+   var person1 = new Person("Nicholas", 29, "Software Engineer");
+   var person2 = new Person("Greg", 27, "Doctor");
+   ```
+
+   这样确实解决了这个问题，但是新的问题出现了。在全局作用域中定义的函数只能被某个对象调用，而且如果对象需要定义许多方法，那么就要定义很多个全局函数，那么我们自定义的引用类型就没有封装性可言了。
+
+6. 原型模式：创建的每个函数都有一个`prototype`属性，这个属性是一个指针，指向一个对象，而这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法。
+
+   按照字面意思理解，`prototype`就是通过调用构造函数而创建的那个对象实例的原型对象。使用原型对象的好处是可以让所有对象实例共享它所包含的属性和方法。
+
+   ```javascript
+   function Person() {
+   }
+   Person.prototype.name = "Nicholas";
+   Person.prototype.age = 29;
+   Person.prototype.job = "Software Engineer";
+   Person.prototype.sayName = function () {
+       alert(this.name);
+   };
+   const person1 = new Person();
+   person1.sayName();   //"Nicholas"
+   const person2 = new Person();
+   person2.sayName(); //"Nicholas"
+   alert(person1.sayName == person2.sayName);  //true
+   ```
+
+   与构造函数模式不同的是，新对象的这些属性和方法由所有实例共享。`person1`和`person2`访问的都是同一组属性和同一个`sayName()`函数。
+
+
+
+
+
