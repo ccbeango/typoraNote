@@ -13,6 +13,7 @@
 * [关于JSON](./JavaScript/关于JSON.md)
 * [异步编程](./JavaScript/异步编程.md)
 * [JS基础](./JavaScript/JS基础.md)
+* [JS的执行环境及作用域](./JavaScript/JS的执行环境及作用域.md)
 
 ## PHP
 

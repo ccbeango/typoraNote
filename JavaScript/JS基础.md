@@ -526,7 +526,109 @@
 
    与构造函数模式不同的是，新对象的这些属性和方法由所有实例共享。`person1`和`person2`访问的都是同一组属性和同一个`sayName()`函数。
 
+## 函数表达式
 
+1. 定义函数的方式有两种：一种是函数声明，另一种是函数表达式。关于函数声明，一个重要的特征就是**函数声明提升**，即在执行代码之前会先读取函数声明。关于函数表达式，形式好像常规的变量赋值语句，即创建一个函数并将它赋值给变量，这种情况下创建的函数叫**匿名函数**，又叫拉姆达函数。
+
+    理解函数提升的关键，就是理解函数声明与函数表达式之间的区别：
+
+   ```javascript
+   // 错误 函数声明提升
+   if(condition){
+       function sayHi() {
+           console.log("Hi!");
+       }
+   } else {
+       function sayHi() {
+           console.log("Yo!");
+       }
+   }
+   
+   // 匿名函数
+   let sayHi;
+   if(condition){
+       sayHi = function() {
+           console.log("Hi!");
+       }
+   } else {
+       sayHi = function() {
+           console.log("Yo!");
+       }
+   }
+   ```
+
+2. 递归函数：在一个函数通过名字调用自身的情况下构成递归函数。
+
+   ```javascript
+   function factorial(num) {
+       if(num <= 1) {
+           return 1;
+       } else {
+           return num * factorial(num-1);
+       }
+   }
+   ```
+
+   这是一个经典的递归阶乘函数，虽然表面看着没有问题，但是下面代码可能出错：
+
+   ```javascript
+   let anotherFactorial = factorial;
+   factorial = null;
+   console.log(anotherFactorial(4));
+   ```
+
+   以上代码先把`factorial()`函数保存到`anotherFactorial`中，再将`factorial`设置为`null`，结果指向原始函数的引用只剩下一个。但在接下来的调用中，函数内部必须执行`factorial()`，而`factorial`已经不再是函数，所以就会导致出错。
+
+   这时`arguments.callee`可以解决这个问题，它是一个指向正在执行的函数的指针，因此可以用它来实现对函数的递归调用。
+
+   ```javascript
+   function factorial(num) {
+       if(num <= 1) {
+           return 1;
+       } else {
+           return num * arguments.callee(num-1);
+       }
+   }
+   ```
+
+   这样可以保证无论怎样调用函数都不会出现问题，因此使用`arguments.callee`代替匿名函数更为保险。
+
+   但是在严格模式下，访问这个属性会导致错误。不过，可以使用匿名函数达到相同的效果：
+
+   ```javascript
+   let factorial = (function f(num){
+       if(num <= 1){
+          return 1;
+       } else {
+           return num * f(num-1);
+       }
+   });
+   ```
+
+   以上代码创建一个名为`f()`的函数命令表达式，然后将它赋值给`factorial`，这样几遍把函数赋值给另一个变量，函数的名字仍然有效，所以递归调用照样能正确完成。这种严格模式和非严格模式下都行得通。
+
+3. 闭包函数：闭包是指有权访问另一个函数作用域中的变量的函数。创建闭包的常见方式，就是在一个函数内部创建另一个函数：
+
+   ```javascript
+   function createComparisonFunction(propertyName) {
+       return function(object1, object2) {
+           let value1 = object1[propertyName];
+           let value2 = object2[propertyName];
+           
+           if(value1 < value2) {
+              return -1;
+           } else if(value1 > value2) {
+               return 1;
+           } else {
+               return 0;
+           }
+       };
+   }
+   ```
+
+    `value1`和`value2`两行代码时内部函数（一个匿名函数）中的代码，这梁行代码访问了外部函数中的变量`propertyName`。即使这个内部函数被放回了，而且是在其他地方被调用了，但它仍然可以访问变量`propertyName`。之所以还能访问这个变量，是因为内部函数的作用域链中包含`createComparisonFunction()`的作用域。要搞清楚其中的[细节](./JS的执行环境及作用域)，必须从理解函数被调用的时候都会发生什么入手。
+
+   
 
 
 
