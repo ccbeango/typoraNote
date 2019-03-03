@@ -14,6 +14,7 @@
 * [异步编程](./JavaScript/异步编程.md)
 * [JS基础](./JavaScript/JS基础.md)
 * [JS的执行环境及作用域](./JavaScript/JS的执行环境及作用域.md)
+* [JS中原型对象的性质](./JavaScript/JS中原型对象的性质.md)
 
 ## PHP
 
