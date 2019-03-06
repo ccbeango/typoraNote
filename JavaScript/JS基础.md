@@ -526,6 +526,120 @@
 
    与构造函数模式不同的是，新对象的这些属性和方法由所有实例共享。`person1`和`person2`访问的都是同一组属性和同一个`sayName()`函数。
 
+7. 组合使用构造函数模式和原型模式：这是最常用的一种方式。构造函数模式用于定义实例属性，而原型模式用于定义方法和共享属性。结果，每个实例有自己的一份实例属性的副本，但同时又共享着对方法的引用，最大限度地节省了内存。另外这种模式还支持向构造函数中传递参数，可谓集两者之长。
+
+   ```javascript
+   function Person(name, age, job){
+   	this.name = name;  
+   	this.age = age;
+   	this.job = job;
+   	this.friends = ["Shelby", "Court"];
+   }
+   
+   Person.prototype = {
+       constructor : Person,
+       sayName : function(){
+           alert(this.name);
+       }
+   }
+   var person1 = new Person("Nicholas", 29, "Software Engineer");
+   var person2 = new Person("Greg", 27, "Doctor");
+   
+   person1.friends.push("Van");
+   alert(person1.friends);    //"Shelby,Count,Van"
+   alert(person2.friends);    //"Shelby,Count"
+   alert(person1.friends === person2.friends); // false
+   alert(person1.sayName === person2.sayName); // true
+   
+   ```
+
+   在这个例子中，实例属性都是在构造函数中定义的，而由所有实例共享的属性`constructor`和方法`sayName()`则是在原型中定义的。而修改了 `personl.friends` (向其中添加一个新字符串），并不会影响到`person2.friends`，因为它们分别引用了不同的数组。 这种构造函数与原型混成的模式，是目前在ECMAScript中使用最广泛、认同度最高的一种创建自定义类型的方法。可以说，这是用来定义引用类型的一种默认模式。
+
+8. 动态原型模式：把所有信息封装在构造函数中，而通过在构造函数中初始化原型（仅在必要的情况下），又保持了同时使用构造函数和原型的优点。也就是说，可以通过检查某个应该存在的方法是否有效，来决定是否需要初始化原型。
+
+   ```javascript
+   function Person(name, age, job){
+   	// 属性
+   	this.name = name; 
+       this.age = age; 
+       this.job = job;
+       // 方法
+       if (typeof this.sayName != "function"){
+           Person.prototype.sayName = function(){
+               console.log(this.name);
+           }; 
+       }
+   }
+    
+   var friend = new Person("Nicholas", 29, "Software Engineer");
+   friend.sayName();
+   ```
+
+   仅在`sayName()`不存在的情况下，才会添加到原型中。这段代码只会在初次调用构造函数时才会执行。此后，完成初始化后不需要再做什么改修了。请记住，不能使用对象字面量重写原型，重写之后会切断现有实例与新原型之间的联系。
+
+9. 寄生构造模式：基本思想是创建一个函数，该函数的作用仅仅是封装创建对象的代码，然后再返回新对象的创建；表面上看，很像是典型的狗在函数。
+
+   ```javascript
+   function Person(name, age, job){
+       var o = new Object();
+       o.name = name;
+       o.age = age;
+       o.job = job;
+       o.sayName = function(){
+           alert(this.name);
+       };
+   	return o; 
+   }
+   
+   var friend = new Person("Nicholas", 29, "Software Engineer");
+   friend.sayName();  //"Nicholas"
+   ```
+
+   这个模式可以在特殊的情况下用来为对象创建构造函数。如创建一个具有额外方法的特殊数组。由于不能直接修改构造函数，可以使用这个模式。
+
+   ```javascript
+   function SpecialArray(){
+   	// 创建数组    
+   	var values = new Array();
+   
+   	// 添加值 
+   	values.push.apply(values, arguments);
+   
+   	// 添加方法
+   	values.toPipedString = function(){
+   	        return this.join("|");
+   	    };
+   	// 返回数组
+   	return values;
+   }
+   
+   var colors = new SpecialArray("red", "blue", "green");
+   console.log(colors.toPipedString()); // "red|blue|green"
+   ```
+
+   有一点需要说明：首先，返回的对象与构造函数或者构造函数的原型属性之间没有关系；也就是说，构造函数返回的对象与在构造函数外部创建的对象没有什么不同。为此，不能依赖`instanceof`操作符来确定对象类型。由于上述存在的问题，建议使用其他模式，不要用这种模式。靠
+
+10. 稳妥构造函数模式：首先要提到稳妥对象，指的是没有公共属性，而且其方法也不引用`this`的对象。稳妥对象最适合在一些安全的环境中（这些环境中会禁止使用`this`和`new`），或者放置数据被其他应用程序改动时使用。
+
+   ```javascript
+   function Person(name, age, job){
+       // 创建要返回的对象
+       var o = new Object();
+       // 在这里定义私有变量和函数
+       
+       // 添加方法
+       o.sayName = function(){
+           alert(name);
+       };
+   	return o; 
+   }
+   
+   var friend = Person("Nicholas", 29, "Software Engineer");
+   friend.sayName();  //"Nicholas"
+   ```
+
+   这样，变量`friend`中保存的是一个稳妥对象，而除了调用`sayName ()`方法外，没有别的方式可以访问其数据成员。即使有其他代码会给这个对象添加方法或数据成员，但也不可能有别的办法访问传 人到构造函数中的原始数据。
+
 ## 函数表达式
 
 1. 定义函数的方式有两种：一种是函数声明，另一种是函数表达式。关于函数声明，一个重要的特征就是**函数声明提升**，即在执行代码之前会先读取函数声明。关于函数表达式，形式好像常规的变量赋值语句，即创建一个函数并将它赋值给变量，这种情况下创建的函数叫**匿名函数**，又叫拉姆达函数。
@@ -626,7 +740,9 @@
    }
    ```
 
-    `value1`和`value2`两行代码时内部函数（一个匿名函数）中的代码，这梁行代码访问了外部函数中的变量`propertyName`。即使这个内部函数被放回了，而且是在其他地方被调用了，但它仍然可以访问变量`propertyName`。之所以还能访问这个变量，是因为内部函数的作用域链中包含`createComparisonFunction()`的作用域。要搞清楚其中的[细节](./JS的执行环境及作用域)，必须从理解函数被调用的时候都会发生什么入手。
+    `value1`和`value2`两行代码时内部函数（一个匿名函数）中的代码，这梁行代码访问了外部函数中的变量`propertyName`。即使这个内部函数被放回了，而且是在其他地方被调用了，但它仍然可以访问变量`propertyName`。之所以还能访问这个变量，是因为内部函数的作用域链中包含`createComparisonFunction()`的作用域。要搞清楚其中的[细节](./JS的执行环境及作用域.md)，必须从理解函数被调用的时候都会发生什么入手。
+
+   
 
    
 

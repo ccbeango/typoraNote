@@ -44,4 +44,5 @@
 * [爬墙](其他/爬墙.md)
 * [写给非专业人士看的Shadowsocks简介](其他/写给非专业人士看的Shadowsocks简介.md)
 * [Redis知识点总结](./其他/Redis知识点总结.md)
+* [Http协议详解](./其他/Http协议详解.md)
 
