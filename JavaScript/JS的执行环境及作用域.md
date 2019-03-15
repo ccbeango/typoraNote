@@ -209,7 +209,7 @@ var object = {
         };
 } };
 alert(object.getNameFunc()()); // "The Window" (在非严格模式下)
-// Cannot read property 'name' of undefined (在严格模式下)
+// Cannot read property 'name' of undefined (在严格模式下this的全局对象指向是undefined，禁止this指向全局对象)
 ```
 
 上面代码`getNameFunc()`返回一个匿名函数，而匿名函数又返回`this.name`，然而，例子的返回字符串是The Window，即全局name变量的值。前面提到过，==每个函数在被调用的时候会自动取得两个特殊变量：`this`和`arguments`。==内函数在搜索这两个变量时，只会搜索到其活动对象为止，因此永远不可能直接访问外部函数中的这两个变量。解决方法可以把作用域中的`this`对象保存在一个闭包能够访问的变量里，就可以让闭包访问该对象了；或者使用ES6的箭头函数
