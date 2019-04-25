@@ -1,3 +1,18 @@
+---
+
+title: react实现按需加载-代码分割（下）
+
+date: 2017-12-29 15:09:10
+
+categories: React
+
+tag: 
+
+- React 
+- HTML
+
+---
+
 # react实现按需加载-代码分割（下）
 
 ### 前言
@@ -262,9 +277,9 @@ export default App;
 
 执行`npm run build`可看到文件被`code-spliting`
 
-![点击](./images/按需加载下1.jpeg)
+![点击](https://raw.githubusercontent.com/ccbeango/blogImages/master/React/按需加载下1.jpeg)
 
-![](./images/按需加载下2.jpeg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/React/按需加载下2.jpeg)
 
 ###二、以组件为中心进行代码分片
 

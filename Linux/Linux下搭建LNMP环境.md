@@ -1,3 +1,15 @@
+---
+
+title: Linux系统目录结构
+
+date: 2018-03-02 12:57:10
+
+categories: Linux
+
+tag: Linux 
+
+---
+
 # Linux下搭建LNMP环境
 
 **装环境之前，首先配置好yum源**
@@ -66,7 +78,7 @@ yum -y install libmcrypt libmcrypt-devel  // 重新安装这两个包
 
 ```
 
-![Linux下搭建LNMP环境](./images/Linux下搭建LNMP环境01.jpeg)
+![Linux下搭建LNMP环境](https://raw.githubusercontent.com/ccbeango/blogImages/master/Linux/Linux下搭建LNMP环境01.jpeg)
 
 安装成功。 
 
@@ -104,7 +116,7 @@ cp /usr/local/php/etc/php-fpm.d/www.conf.default /usr/local/php/etc/php-fpm.d/ww
 
 **设置php-fpm开机自启**
 
- 1.  创建脚本文件
+ 1. 创建脚本文件
 
      ```
      vi  /etc/init.d/php-fpm
@@ -120,9 +132,9 @@ cp /usr/local/php/etc/php-fpm.d/www.conf.default /usr/local/php/etc/php-fpm.d/ww
             # chkconfig: - 85 15
             # processname: php-fpm
             # config:      /usr/local/php/etc/php-fpm.conf
-
+     
             set -e
-
+     
             PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
             DESC="php-fpm daemon"
             NAME=php-fpm
@@ -133,19 +145,19 @@ cp /usr/local/php/etc/php-fpm.d/www.conf.default /usr/local/php/etc/php-fpm.d/ww
             
             # If the daemon file is not found, terminate the script.
             test -x $DAEMON || exit 0
-
+     
             d_start(){
                 $DAEMON -y $CONFIGFILE || echo -n " already running"
             }
-
+     
             d_stop(){
                 kill -QUIT `cat $PIDFILE` || echo -n " no running"
             }
-
+     
             d_reload(){
                 kill -HUP `cat $PIDFILE` || echo -n " could not reload"
             }
-
+     
             case "$1" in
                 start)
                     echo -n "Starting $DESC: $NAME"
@@ -178,27 +190,22 @@ cp /usr/local/php/etc/php-fpm.d/www.conf.default /usr/local/php/etc/php-fpm.d/ww
             exit 0
      ```
 
- 3.  修改权限
+ 3. 修改权限
 
      ```shell
      chmod a+x php-fpm
      ```
 
- 4.  测试并设置开机自启
+ 4. 测试并设置开机自启
 
      ```shell
      $ /etc/init.d/php-fpm --help
-
+     
         Usage: /etc/init.d/php-fpm {start|stop|restart|force-reload)
-
-     $ chkconfig php-fpm on
+     
+     $ chkconfig php-fpm on    
      ```
 
-     ​
-
-
-
-​    
 
 ## 二、安装Nginx
 
@@ -245,11 +252,11 @@ nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful
 
 编辑nginx配置文件/usr/local/nginx/conf/nginx.conf，主要修改nginx的server {}配置块中的内容，修改location块，追加index.php让nginx服务器默认支持index.php为首页：
 
-![](./images/Linux下搭建LNMP环境03.png)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/Linux/Linux下搭建LNMP环境03.png)
 
 打开php配置模块：
 
-![](./images/Linux下搭建LNMP环境04.png)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/Linux/Linux下搭建LNMP环境04.png)
 
 这里面很多都是默认的，`root`是配置php程序放置的根目录，主要修改的就是`fastcgi_param`中的`/scripts`为`$document_root`
 
@@ -271,7 +278,7 @@ nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful
 
 访问：
 
-![](./images/Linux下搭建LNMP环境05.png)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/Linux/Linux下搭建LNMP环境05.png)
 
 ### 6.配置Nginx全局变量
 
@@ -417,9 +424,11 @@ Usage: /etc/init.d/nginx {start|stop|status|restart|condrestart|try-restart|relo
      chkconfig --add /etc/init.d/nginx
      ```
 
- 2.  加完这个之后，就可以使用service对nginx进行启动，重启等操作
+ 2. 加完这个之后，就可以使用service对nginx进行启动，重启等操作
 
       ```shell
+      
+      ```
      $ service nginx --status-all
      Usage: /etc/init.d/nginx {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}
       ```
@@ -594,7 +603,7 @@ service mysqld —help
 service mysqld --status-all
 ```
 
-![](./images/Linux下搭建LNMP环境06.png)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/Linux/Linux下搭建LNMP环境06.png)
 
 ```shell
 ./support-files/mysql.server start

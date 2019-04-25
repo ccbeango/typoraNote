@@ -1,3 +1,15 @@
+---
+
+title: 关于JSON
+
+date: 2018-07-02 11:24:10
+
+categories: JavaScript
+
+tag: JavaScript 
+
+---
+
 # 关于JSON
 
 > 摘自：《JavaScript高级程序设计》

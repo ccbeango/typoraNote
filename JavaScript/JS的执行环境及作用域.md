@@ -1,3 +1,15 @@
+---
+
+title: JS的执行环境及作用域
+
+date: 2018-07-11 19:44:10
+
+categories: JavaScript
+
+tag: JavaScript 
+
+---
+
 # JS的执行环境及作用域
 
 > 摘自《JavaScript高级程序设计》
@@ -61,7 +73,9 @@ changeColor();
 
 ​	以上代码共涉及3个执行环境：全局环境、changeColor()的局部环境和swapColor()的局部环境。全局环境中有一个变量`color`和一个函数`changeColor()`。changeColor()的局部环境中有一个变量`anotherColor`和一个函数`swapColors()`，但它也可以访问全局环境中的变量`color`。swapColors()的局部变量中有一个变量`tempColor`，该变量只能在这个环境中访问到。无论是全局环境还是changeColor()的局部变量都无权访问`tempColor`，然而，在swapColors()内部则可以访问其他两个环境中的所有变量，因为那两个环境是它的父执行环境。如图：
 
-![](./images/JS执行环境及作用域01.jpg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E7%9A%84%E6%89%A7%E8%A1%8C%E7%8E%AF%E5%A2%83%E5%8F%8A%E4%BD%9C%E7%94%A8%E5%9F%9F01.jpg)
+
+
 
 ​	上图表示特定的执行环境。其中，内部环境可以通过作用域链访问所有的外部环境，但外部环境不能访问内部环境中任何变量和函数。这些环境之间的联系是线性、有次序的。每个环境都可以向上搜索作用域链，以查询变量名和函数名；但任何环境都不能通过向下搜索作用域链而进入另一个执行环境。
 
@@ -119,7 +133,7 @@ const result = compare(5, 10);
 
 以上代码先定义了`compare()`函数，然后又在全局作用域中调用了它。当调用`compare()`时，会创建一个包含`arguments`、`value1`、`value2`的活动对象。全局执行环境的变量对象（result和compare）在`compare()`执行环境的作用域链中则处于第二位。如下图，包含了上述关系的`compare()`函数执行时的作用域链。
 
-![](./images/JS执行环境及作用域02.jpg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E7%9A%84%E6%89%A7%E8%A1%8C%E7%8E%AF%E5%A2%83%E5%8F%8A%E4%BD%9C%E7%94%A8%E5%9F%9F01.jpg)
 
 ​	后台的每个执行环境都有一个表示变量的对象——变量对象。全局环境的变量对象始终存在，而像`compare()`函数这样的局部环境的变量对象，则只在函数执行的过程中存在。在创建`compare()`函数时，会创建一个预先包含全局变量对象的作用域链，这个作用域链被保存在内部的`[[Scope]]`属性中。当调用`compare()`函数时，会为函数创建一个执行环境，然后通过复制函数的`[[Scope]]`属性中的对象构建起执行环境的作用域链。此后，又有一个活动对象（在此作为变量对象使用）被创建并被推人执行环境作用域链的前端。对于这个例子中`compare()`函数的执行环境而言，其作用域链中包含两个变量对象：本地活动对象和全局变量对象。显然，==作用域链本质上是一个指向变量对象的指针列表，它只引用但不实际包含变量对象。==
 
@@ -136,9 +150,9 @@ const compare = createComparisonFunction("name");
 const result = compare({ name: "Nicholas" }, { name: "Greg" });
 ```
 
-![](./images/JS执行环境及作用域03.jpg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E7%9A%84%E6%89%A7%E8%A1%8C%E7%8E%AF%E5%A2%83%E5%8F%8A%E4%BD%9C%E7%94%A8%E5%9F%9F03.jpg)
 
-​	在匿名函数从`createComparisonFunction()`中被返回后，它的作用域链被初始化为包含 `createComparisonFunction()`函数的活动对象和全局变量对象。这样，匿名函数就可以访问在 `createComparisonFunction()`中定义的所有变量。更为重要的是，`createComparisonFunction()` 函数在执行完毕后，其活动对象也不会被销毁，因为匿名函数的作用域链仍然在引用这个活动对象。换句话说，当`createComparisonFunction()`函数返回后，其执行环境的作用域链会被销毁，但它的活 动对象仍然会留在内存中；直到匿名函数被销毁后，`createComparisonFunction()`的活动对象才被销毁。
+在匿名函数从`createComparisonFunction()`中被返回后，它的作用域链被初始化为包含 `createComparisonFunction()`函数的活动对象和全局变量对象。这样，匿名函数就可以访问在 `createComparisonFunction()`中定义的所有变量。更为重要的是，`createComparisonFunction()` 函数在执行完毕后，其活动对象也不会被销毁，因为匿名函数的作用域链仍然在引用这个活动对象。换句话说，当`createComparisonFunction()`函数返回后，其执行环境的作用域链会被销毁，但它的活 动对象仍然会留在内存中；直到匿名函数被销毁后，`createComparisonFunction()`的活动对象才被销毁。
 
 ```javascript
 // 创建函数 
@@ -236,4 +250,3 @@ var object2 = {
 
 console.log(object2.getNameFunc()()); // My Object
 ```
-

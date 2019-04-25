@@ -1,3 +1,15 @@
+---
+
+title: Linux系统目录结构
+
+date: 2018-01-27 15:27:10
+
+categories: Linux
+
+tag: Linux 
+
+---
+
 # Linux下安装phpMyAdmin
 
 ### 1.下载phpMyAdmin

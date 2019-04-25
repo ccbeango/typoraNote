@@ -1,3 +1,15 @@
+---
+
+title: JS的基础
+
+date: 2019-01-07 17:20:10
+
+categories: JavaScript
+
+tag: JavaScript 
+
+---
+
 ## 基本概念
 
 1. JS区分大小写；函数名不能适用`typeof`，它是一个关键字。
@@ -287,18 +299,18 @@
 
 10. 由于函数名仅仅是指向函数的指针，因此函数名与包含对象指针的其他变量没有什么不同，即一个函数可能有多个名字。使用不带括号的函数名是访问函数指针，而非调用函数。
 
-    ```javascript
-    function sum(num1, num2){
-        return num1 + num2;
-    }
-    alert(sum(10,10));        //20
-    var anotherSum = sum;
-    alert(anotherSum(10,10)); //20
-    sum = null;
-    alert(anotherSum(10,10)); //20
-    ```
+   ```javascript
+   function sum(num1, num2){
+       return num1 + num2;
+   }
+   alert(sum(10,10));        //20
+   var anotherSum = sum;
+   alert(anotherSum(10,10)); //20
+   sum = null;
+   alert(anotherSum(10,10)); //20
+   ```
 
-    此时，`anotherSum`和`sum`就指向了同一个函数，调用`snotherSum()`也可以被调用并返回结果。
+   此时，`anotherSum`和`sum`就指向了同一个函数，调用`snotherSum()`也可以被调用并返回结果。
 
 11. 深入理解函数没有重载：将函数名想象为指针，上面提到的函数名相同后面的会覆盖前面的。而利用指针概念：
 
@@ -416,7 +428,7 @@
 
     * `Global`对象的属性：
 
-      ![](./images/JS基础01.png)
+      ![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E5%9F%BA%E7%A1%8001.png)
 
 24. Math对象的属性：大都是数学计算中可能用到的一些特殊值。
 
@@ -430,7 +442,7 @@
 
     * 其他方法：
 
-      ![](./images/JS基础02.png)
+      ![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E5%9F%BA%E7%A1%8002.png)
 
 ## 面向对象的程序设计
 

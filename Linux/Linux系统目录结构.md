@@ -1,3 +1,15 @@
+---
+
+title: Linux系统目录结构
+
+date: 2018-01-27 15:27:10
+
+categories: Linux
+
+tag: Linux 
+
+---
+
 # Linux系统目录结构
 
 在终端运行`ls /`可看到如下内容:
@@ -10,7 +22,7 @@ boot  etc  lib   media  opt  root  sbin  sys  usr
 
 树状目录结构：
 
-![./images/1.jpg](./images/linux系统目录结构.jpg)
+![./images/1.jpg](https://raw.githubusercontent.com/ccbeango/blogImages/master/Linux/linux%E7%B3%BB%E7%BB%9F%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.jpg)
 
 
 

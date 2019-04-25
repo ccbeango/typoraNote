@@ -1,49 +1,7 @@
-# 个人笔记
+# 个人笔记分类归档
 
-## React
+欢迎访问我的博客：<https://ccbeango.github.io>
 
-* [按需加载（上）](/React/按需加载（上）.md)
-* [React按需加载（下）](/React/React按需加载（下）.md)
-* [构建自己的redux](/React/构建自己的redux.md)
-* [React零碎点总结](/React/React零碎点总结.md)
-* [Apollo-Client简介](/React/Apollo-Client简介.md)
-
-## JS
-
-* [关于JSON](./JavaScript/关于JSON.md)
-* [异步编程](./JavaScript/异步编程.md)
-* [JS基础](./JavaScript/JS基础.md)
-* [JS的执行环境及作用域](./JavaScript/JS的执行环境及作用域.md)
-* [JS中原型对象的性质](./JavaScript/JS中原型对象的性质.md)
-
-## PHP
-
-* [PHP 多维数组排序保持索引对应关系巧用 uasort](./PHP/PHP多维数组排序-保持索引对应关系,巧用uasort.md)
-
-## Node
-
-* [node实现图片上传](./Node/node实现图片上传.md)
-
-## Linux
-
-* [Linux/Linux系统目录结构](./Linux/Linux系统目录结构.md)
-* [Linux下搭建LNMP环境](./Linux/Linux下搭建LNMP环境.md)
-* [Linux下安装phpMyAdmin](./Linux/Linux下安装phpMyAdmin.md)
-* [小视频笔记（一）](./Linux/小视频笔记（一）.md)
-* [小视频笔记（二）](./Linux/小视频笔记(二).md)
-* [小视频笔记（三）](./Linux/小视频笔记(三).md)
-
-## Mysql
-
-* [JOIN,LEFT JOIN,ALL JOIN 等的区别和联系](./Mysql/JOIN,LEFTJOIN,ALLJOIN等的区别和联系.md)
-* [join语句的正确使用](./Mysql/join语句的正确使用.md)
-
-## 其他
-
-* [Debug模式操作](其他/Debug模式操作.md)
-* [爬墙](其他/爬墙.md)
-* [写给非专业人士看的Shadowsocks简介](其他/写给非专业人士看的Shadowsocks简介.md)
-* [Redis知识点总结](./其他/Redis知识点总结.md)
-* [Http协议详解](./其他/Http协议详解.md)
-* [Session和Cookie](./其他/Session和Cookie.md)
-
+15岁觉得游泳难，放弃游泳，到18岁遇到一个你喜欢的人约你去游泳，你只好说：“我不会耶”。
+18岁觉得英文难，放弃英文，28岁出现一个很棒但要会英文的工作，你只好说：“我不会耶”。 
+人生前期越嫌麻烦，越懒得学，后来就越可能错过让你动心的人和事，错过新风景 。

@@ -1,3 +1,15 @@
+---
+
+title: JS中原型对象的性质
+
+date: 2019-01-22 16:20:10
+
+categories: JavaScript
+
+tag: JavaScript
+
+---
+
 # JS中原型对象的性质
 
 > 摘自 《JavaScript高级程序设计》
@@ -26,7 +38,7 @@ alert(person1.sayName == person2.sayName);  //true
 
 ​	以前面使用`Person`构造函数和`Person.prototype`创建实例的代码为例，下图展示了各个对象之间的关系。
 
-![](./images/JS中原型对象的性质01.jpg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E4%B8%AD%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%80%A7%E8%B4%A801.jpg)
 
 ​	上图展示了`Person`构造函数、`Person`的原型属性以及`Person`现有的两个实例之间的关系。 在此，`Person.prototype` 指向了原型对象，而 `Person.prototype.constructor `又指回了 `Person`。 原型对象中除了包含`constructor`属性之外，还包括后来添加的其他属性。`Person`的每个实例—— `person1`和`person2`都包含一个内部属性，该属性仅仅指向了`Person.prototype` ；换句话说，**它们与构造函数没有直接的关系。**此外，要格外注意的是，虽然这两个实例都不包含属性和方法，但我们却可以通过调用`person1.sayName()`。这是通过查找对象属性的过程来实现的。
 
@@ -125,7 +137,7 @@ console.log(person1.hasOwnProperty("name")); // false
 
 通过使用`hasOwnProperty()`方法，可以很清楚地看到何时访问的是实力属性，何时访问的是原型属性。调用`person1.hasOwnProperty("name")`时，只有当`person1`重写`name`属性后才会返回`true`，因为只有这时`name`才是一个实例属性，而非原型对象。下图展示了上面例子不同情况下的实例与原型的关系（为简单起见，图中省略了与`Person`构造函数的关系）。
 
-![](./images/JS中原型对象的性质02.jpg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E4%B8%AD%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%80%A7%E8%B4%A802.jpg)
 
 **注意：**ES5 的 `Object.getOwnPropertyDescriptor()`方法只能用于实例属 性，要取得原型属性的描述符，必须直接在原型对象上调用`Object.getOwnPropertyDescriptor()`方法。
 
@@ -257,7 +269,7 @@ friend.sayName();   //error
 
 在这个例子中，我们先创建了`Person`的一个实例，然后又重写了其原型对象。然后在调用`friend.sayName()`时发生了错误，因为`friend`指向的原型中不包含以该名字命名的属性。过程的内幕如下图：
 
-![](./images/JS中原型对象的性质03.jpg)
+![](https://raw.githubusercontent.com/ccbeango/blogImages/master/JavaScript/JS%E4%B8%AD%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%80%A7%E8%B4%A803.jpg)
 
 重写原型对象切断了现有原型与任何之前已经存在的对象实例之间的联系；它们引用的仍然是最初的原型。
 

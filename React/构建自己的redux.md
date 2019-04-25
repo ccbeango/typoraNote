@@ -1,3 +1,18 @@
+---
+
+title: 构建自己的redux
+
+date: 2017-12-29 15:09:10
+
+categories: React
+
+tag: 
+
+- React 
+- Redux
+
+---
+
 # 构建自己的redux
 
 ### 前言：

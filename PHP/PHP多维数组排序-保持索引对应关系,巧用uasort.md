@@ -1,4 +1,14 @@
+---
 
+title: PHP 多维数组排序 保持索引对应关系 巧用 uasort
+
+date: 2018-01-18 13:00:10
+
+categories: PHP
+
+tag: PHP 
+
+---
 
 # PHP 多维数组排序 保持索引对应关系 巧用 uasort
 
