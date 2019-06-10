@@ -1345,7 +1345,6 @@
    | assertFalse(x)          | 核实x为False       |
    | assertIn(item, list)    | 核实item在list中   |
    | assertNotIn(item, list) | 核实item不在list中 |
-   |                         |                    |
 
    注：只能在继承`unittest.TestCase`的类中使用这些方法。
 
