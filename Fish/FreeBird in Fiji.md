@@ -53,4 +53,4 @@ And then we talked something about Japanese manga and culture, subway lines, I s
 
 Now, I am typing these sentences for recording the good night. I can't wait to go to class tomorrow although I am a little nervous about my exam.
 
-Altogether, I hope I can make a difference. Bless me!
+Altogether, think in English, speak in English, write in English as much as possible. I hope I can make a difference. Bless me!
