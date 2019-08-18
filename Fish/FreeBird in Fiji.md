@@ -1,7 +1,8 @@
 # FreeBird in Fiji
 Hi, everybody. In this blog I just wanna record my imteresting things, share my thoughts in life and learning spoken English experience.
 
-By the way, my English is suck, I don't have enough vocabulary, good grammer and **logical capability**, so, It's possible this blog is mess and doesn't have good points you worth reading, think it over before starting, lol. Maybe with the process of my study, it will be more and more better, I hope so~
+By the way, my English is suck, I don't have enough vocabulary, good grammer and **logical capability**, so, It's possible this blog is mess and doesn't have good points you worth reading, think it over before starting, lol. Maybe with the process of my studying, it will be more and more better, I hope so~
+
 OK, let's start!
 
 ## Why did I choose and come here?
@@ -45,4 +46,11 @@ Night breeze **brushed** my face, I felt so cool and comfortable. I hadn't saw l
 This's the forth day I live in Fiji, I left for  3 days for note, because I didn't have any classes until next week Monday, it is a little boring about that I didn't know what thing was worth to be recorded.  To be honest, I just forgot to record them, and am starting to write now. ╮(︶﹏︶)╭
 
 Alright, I have finished the diary finally, then keep a diary for the rest of these days.
-        
+
+It's very glad that I met mayomi, a Japanese guy and worked here, at this night. I cooked some rice and soup for my dinner, he was eating food on he table. So, I asked him what time and where about my first exam. That's the way we statred to communicate each other. We hung out and walk around at campus, then we talked a lot. For example, why can't we visit foreigner websites in China? And why do Japanese work so crazy, even 12 hours in one day? He just told me "fucking crazy 😂. they tried to make some changes about that for many years, but it didn't work all the time". I don't wanna have same experience in China at all, that's incredible and crazy...
+
+And then we talked something about Japanese manga and culture, subway lines, I showed some videos I watched in China about Japan. We had a better communication if there weren't so many **mosquitoes** to bite us. Haha, we had to go back and take a shower. 
+
+Now, I am typing these sentences for recording the good night. I can't wait to go to class tomorrow although I am a little nervous about my exam.
+
+Altogether, I hope I can make a difference. Bless me!
