@@ -55,3 +55,21 @@ Now, I am typing these sentences for recording the good night. I can't wait to g
 
 Altogether, think in English, speak in English, write in English as much as possible. I hope I can make a difference. Bless me! 
 (●'◡'●)ﾉ❤
+
+### The Fifth Day Monday Aguest 19 2019
+I got up so early in the morning so that I can have the first test in time. After waiting for 30 miniutes, we started to have that was consisted of 4 sections, listenning, grammer, vocabulary, speaking. Emm, how to say the test, listening is so hard for me, I hardly get anything. I haven't check some grammer in English for about three years, haha, you have got the result about my grammer records possiblely. Finally, what werid questions about the thrid section. So, I just got 6 of 15, a little akward, haha.
+
+For the last section, I talked with a teacher in English, who just gave me three questions.
+What is your name? How long will you be here? Why did you come to Fiji for learning English? I responsed them in Chinlish(￢_￢)
+
+In the end,  I got level.4 to go to class at room 21 in the morning and at room 15 in the afternoon. then, I met my classmates, one of them is Kui whose bf is Rui, what a coindence, the world is so small. ƪ(•̃͡ε•̃͡)∫ʃ
+
+Next, I'd like to talk about the experience of my class. Actually, I was a little disappointed. I don't know what can I say, the teachers I met didn't have good accent in English, weren't like a native speaker. I was embarrassed because of not understanding their words well. Maybe enough time was need to me to get used to the environment of studying. 
+
+Most of my classmates are similar with me about our accent. Same confusions for everybody. How to speak English like a native speaker? I need think it over, do some changes.
+
+ Btw, they are so friendly and kind, I am lucky to meet them~
+
+Good night~
+
+
