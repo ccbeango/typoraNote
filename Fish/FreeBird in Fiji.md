@@ -72,4 +72,13 @@ Most of my classmates are similar with me about our accent. Same confusions for 
 
 Good night~
 
+### The Sixth Day  Tuesday  Aguest 20 2019
+
+Ah, I have finished my second day of the lesson. In the morning, we learnt some grammers about how to use "if" correctly, for example, "What would the city have looked like if the riot hadn't haooended", "If the guy had worked hard, he wouldn't come here for learning English I guessed." If I say grammer is a disaster for me, it's not too much. I have forgotten all of them. I made a variety of mistakes in which I wrote six sentences. It is necessary for me to pick grammers up from beginning.
+
+In the aftertoon, boring lesson as same as one yesterday. The teacher just taught us how to ask and answer the way that belonged to Giving Directions, Prepositions of Place. And then, let us disscuss where was our homestay or Where was Mcdonald's at Luatoka if you were living in domitory? We talked about the topic until class was over! I was helpless with **sighs**. To be frank, What the hell,sry? I didn't get what teacher said because of her heavy accent! Although I knew that was useless to complain,  I can't stand doing to Shin was a great Japanese guy. The suggestion was that change the akward situation, upgrade level according to pass the test. So, it was up to me. I am very appreciate the kind guy!!!
+
+
+There will be a speech in our afternoon class. The topic is "What do you think of FreeBird school ?" Make your point in not less than 2 minutes, more than 80% in memories. So difficult, I need think it over now.
+
 
