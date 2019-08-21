@@ -81,5 +81,16 @@ In the aftertoon, boring lesson as same as one yesterday. The teacher just taugh
 
 There will be a speech in our afternoon class. The topic is "What do you think of FreeBird school ?" Make your point in not less than 2 minutes, more than 80% in memories. So difficult, I need think it over now.
 
-hello, nur
+### The 7th Day  Wednesday Aguest 21 2019
 
+It's very meaningful to me today. Always believe that something wonderful is about to happen. I couldn't agree more! 
+
+In the morning, we learnt grammer is Ways of Exaggerating. for example, I am over the moon, I am dying for a drink, it takes forever are correspond to I am very happy, I am very thirty, It takes a very long time. I think these sentences are killing me, but very useful. And then we need write a story after selecting a topic in 6 topics, our group selected the topic, love at first sight. I remembered a movie, The Time Traveler's Wife is very a touching and meaningful love story, so I got some points from there to finish our topic.
+
+If I hadn't prepared to write and read something about my speech, I wouldn't have had a good experience. The speech was not bad I thought, I can talk my points well without the whole article I wrote. My speech time was more than 3 mins, good job! 
+
+After lesson, I went to supermarket to buy chicken and potatos in order to cook fry chincken that was famous and traditional method. I was very appreciate for that the tasty was great I got the same comments from three guys.
+
+Today is significative the first time I called nuonuo. Actually, my confidence wasn't enough to talk with her by calling at a fews months ago. After 3 days for learning English in FIJI, I overcome myself and had courage to open mouth to speak, I loved the feeling when I was talking with her in English. Nuonuo is quite humorous and accommodating to me. I couldn't describe her generousity in words. Lucky dog I am~
+
+ Because of talking with nuonuo, I met a girl and be asked what and who  I were talking to, I might meet her again at 2:30pm again.Haha, I am looking for do that.🤗
