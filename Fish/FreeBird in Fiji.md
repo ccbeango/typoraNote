@@ -81,5 +81,5 @@ In the aftertoon, boring lesson as same as one yesterday. The teacher just taugh
 
 There will be a speech in our afternoon class. The topic is "What do you think of FreeBird school ?" Make your point in not less than 2 minutes, more than 80% in memories. So difficult, I need think it over now.
 
-hello, nuonuo
+hello, nur
 
