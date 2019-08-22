@@ -94,3 +94,13 @@ After lesson, I went to supermarket to buy chicken and potatos in order to cook 
 Today is significative the first time I called nuonuo. Actually, my confidence wasn't enough to talk with her by calling at a fews months ago. After 3 days for learning English in FIJI, I overcome myself and had courage to open mouth to speak, I loved the feeling when I was talking with her in English. Nuonuo is quite humorous and accommodating to me. I couldn't describe her generousity in words. Lucky dog I am~
 
  Because of talking with nuonuo, I met a girl and be asked what and who  I were talking to, I might meet her again at 2:30pm again.Haha, I am looking for do that.🤗
+
+### The 8th Day  Thursday Aguest 22 2019
+About 50 students would graduate from FreeBird today, there were a big celebration today.  We don't have to have class, but need dance in public. How akward was! hahaha, I didn't wanna dance, but I have to.
+
+After dancing, we went to a Chinese resturant to buy food and went classroom back. A little boring to me the whole thing.
+
+And have an another thing I don't wanna talk too much. Creepy thing, AAAA, bye to the girl I met last night.
+
+Are there anything I can say? Maybe nothing. You are genius, by the way, very smart~ haha.
+So, ni de dian hua hao ma shi duo shao?
