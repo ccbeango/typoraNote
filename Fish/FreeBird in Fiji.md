@@ -104,3 +104,19 @@ And have an another thing I don't wanna talk too much. Creepy thing, AAAA, bye t
 
 Are there anything I can say? Maybe nothing. You are genius, by the way, very smart~ haha.
 So, ni de dian hua hao ma shi duo shao?
+
+### The 9th Day  Friday Aguest 23 2019
+I absented my last lesson in the morning and all of lessons in the afternoon. Because just watched  a horrible moive of which I didn't like the type. 
+
+I have a suggestion to everyone, don't freeze the whole piece of beef in the fridge unless you can have it for once or must be stupid. That's so awful I just wanna cook a part of beef and have to cut it thawing before. Take care. 
+
+During the beef was unfreezed in the kitchen, I went to center of city in order to buy something with Shin. Shin's English is great, espically, listening skills. Such awesome! Another incredible thing about Shin that I wouldn't have got his real age completely, if he hadn't told me. 38!!! looks like 28!!! **Mignon** guy, crazy!
+
+I like to talk with him, he is **humble** and **curltural**, the most point is so handsome, so cool. Haha, we talked a lot when we went shopping. Then, I got a new world, the green **groceries** market! I found most of groceries are more **ten-cent** than them in tapooCity. At the same time, I can get a discount if I talked with these **greengrocers** about the price probably. I got 3 pawpaws whose original cost was 3 from there and just was costed 2 dollars. I also found a Chinese store where everything is so expensive. I couldn't accept the truth.😂 Finally I still bought weijing that's a kind of flavouring. 
+
+After that, we bought something else and come back to school. I cooked beef meat balls, probably, because of the different flour, **cassava flour** here, the flavour is not good but abe to be accpeted. Some of guys were treated by me with meat balls. Thanks for their **compliment**.
+
+I watched some English videos and then talked with Nuonuo by calling. Awesome! We talked a lot of thing. Haha, my shopping experience, liaison of pharses, huawei and xiaomi, trade war with American, marriage about a Chinese guy and a Sweden girl, and my phone number I am very scared about. Will someone is creepy and crazy call me? No, please don't do that!!! 
+
+By the way, thanks for nuonuo's favors. Wanan!
+
