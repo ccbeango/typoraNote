@@ -119,4 +119,14 @@ After that, we bought something else and come back to school. I cooked beef meat
 I watched some English videos and then talked with Nuonuo by calling. Awesome! We talked a lot of thing. Haha, my shopping experience, liaison of pharses, huawei and xiaomi, trade war with American, marriage about a Chinese guy and a Sweden girl, and my phone number I am very scared about. Will someone is creepy and crazy call me? No, please don't do that!!! 
 
 By the way, thanks for nuonuo's favors. Wanan!
+### The 10th Day  Friday Aguest 24 2019
 
+Saterday is coming, what thing can I do? hahaha, a little boring. Talking with most of Japanese friends is a little tired. I can't catch their points **briskly**. 
+
+So I was trying to find some friends can exchange on Speaky. Fortunately, I got two friends, one is liu tian comes from Moorocco, another is Lke comes from Indonesia. 
+
+Haha, awesome! Liutian told me about her experiences are many interesting and memorable. Her Chinese level is incredible. She always explained thing we were talking about and I couldn't obviously get the meaning of. She wanted to get a job im China, it was very possible to come true I believed, just try!
+
+In the afternoon, I walked around nearby school, the weather was great, I took some pictures and had a video call with Duoge was my real friend. At about 7:00pm, I got in touch with Lke by calling, her major is related to English, that's why her accent was excellent! She was laughing all the time, liked to smile very much I guess, haha.  She was so kind I thought, we talked how to learn English, our major, accents and what kind of job each of us wanted to do... Too many funny things we said, I can't remember clearly.  I had learnt a lot of points from calling.We ended the conversation because of bedtime is about to come~
+
+Thanks for your help, wan an.
