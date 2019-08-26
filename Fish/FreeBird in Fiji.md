@@ -130,3 +130,13 @@ Haha, awesome! Liutian told me about her experiences are many interesting and me
 In the afternoon, I walked around nearby school, the weather was great, I took some pictures and had a video call with Duoge was my real friend. At about 7:00pm, I got in touch with Lke by calling, her major is related to English, that's why her accent was excellent! She was laughing all the time, liked to smile very much I guess, haha.  She was so kind I thought, we talked how to learn English, our major, accents and what kind of job each of us wanted to do... Too many funny things we said, I can't remember clearly.  I had learnt a lot of points from calling.We ended the conversation because of bedtime is about to come~
 
 Thanks for your help, wan an.
+### The 11th Day  Friday Aguest 25 2019 
+I am very shamed. Now is 26th. Yeah, you are right, I am **dilatory**. OK, I will pretend to write this diary at 25th.(⋟﹏⋞)
+
+Haha,  I made an appointment with Shin yesterday. We planed to go to an island, Bekana Island which was not far from Lautuka. So at 10:00am, we had been going to Bekana by walk. Secnery along the way is **fabulous**, bule sky and white clouds, **breezy**. We talked as we walked, many questions we had. Do you have the confusion that can't get the meaning directly when you are hearing numbers in English, such as $5.75, phone number 356944300. Haha, let me see, what number you said.
+
+We'll get at the wharf soon, pay $15 for the return ticket. It just took 15mins to get Bekana Island. Shin and I were walking on beach, then took some photos, Shin's pose is so funny and awesome! Haha, I liked the feel that dip your feet in the cool and blue sea. 
+
+The pizza that was sold in a resturant on the island is very luscious. Although we ordered the miduim size one, it was too much. After that we pkayed the table tennis for a while, haha, met some of Japanese friends, we were back to Lautoka at 3:00pm. 
+
+Great short trip! I was on the moon.
