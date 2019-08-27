@@ -140,3 +140,9 @@ We'll get at the wharf soon, pay $15 for the return ticket. It just took 15mins 
 The pizza that was sold in a resturant on the island is very luscious. Although we ordered the miduim size one, it was too much. After that we pkayed the table tennis for a while, haha, met some of Japanese friends, we were back to Lautoka at 3:00pm. 
 
 Great short trip! I was on the moon.
+### The 12th Day  Friday Aguest 26 2019 
+The calss was reassigned from this week, thank god! My teachers were changed. That's very fantastic my teachers' accent and rythem sounds great.
+
+After class, there was nothing I can do, then just go to toppoCity for shopping with two Jpaanese friends. When I was back to domitory, I had a video calling with Lke, wow, she was so cute and lively, I could hear the sound of laughing all the time. Her personality was so good, I love to talk with her. We hung up in about 30 mins, cause I need help a Japanese friend to translate a letter was for his by from Japanese into Chinese. Certainly, we need have the support  that's talking each other in English.
+
+Nuonuo is going to a new college as a teacher, I hope her all the best!
