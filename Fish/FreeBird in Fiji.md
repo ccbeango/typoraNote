@@ -175,4 +175,32 @@ Fighting, my friend!
 Haha,with ike, have a brief call, come on! Sleeping now, good night.
 
 ### The 15th Day Thursday Augest 29 2019
+In the morning class, that was the last lesson to Kei, Takuto and Mai, it's different from the usual, we didn't have grammer, vocabulary or lesson at first class, playing a game to review the knowledge we had learned in this week. Cloud9 vs Clould10. LOL, we enjoyed the game, but Ren, Shihu and I were not niubility, haha, winner was Cloud9! 
+After that, we asked questions each other, for example, which place is the most memorable to you, can you share something with me? When did you last have a date with a girl, how was that? And some creepy questions, I was scared (*ﾟﾛﾟ)!!
+
+In the aftertoon class, it was speech time. My topic was places I want to visit. I want to travel to Japan recently. Here is my speech notes.
+
+>Thanks to the fact I was born in the age, not the ancient of the information. I can explore the acctractive places easily that's a feast for the eyes.
+>百闻不如一见 in Chinese, To see is to believe.
+It's better to see once time than hear a hunderd times.
+Although there are countless places  I want to go, unfortunately, I have little time and no money, yeah, that's so realastic point.
+Therefore, if you asked me, Hey, Andy, so Which place do you want to tour most?
+ >I am afraid I have to say, recently, the place I want to visit to place is Japan, I mean it.
+ Yeah, I have alreay wanted to travel in Japan for a long interested. 
+ >To be frank, I am not type of man that just kind in beautiful or taking some photoes. So, I want to stay there carefree if I can. But you know, the truth is a real sense of reality. Having abundant time to do like that thing is a kind of wild wishes.
+ >So, I plan to stay here for 15 days. I want to go Akihabara(秋叶原) for feeling the cultrue of animation, I am a big fan of Japanese manga, espically OnePiece. I want to go 奈良 to see intoxicating scenery and experience cute deers at park. I'd like to go to Tokyo to take the subway, experience the crazy subway lines in myself. 熊本熊 is a black and cute bear. If I can, I want to meet. I want to 大阪 to have a look at samuria Culture.
+I want to see sakula. I'll stay quietly all afternoon under the sakula.
+>Too many places I want to visit, so good news, probably I will go to Japan in next year.
+Wait for me.
+Thank you for listening
+
+It had been 2:30pm, rushed out of the classroom and had fun. ike and I had decided to have a video call in this afternoon at yesterday night. So took a hat, got in touch with ike, OK, funny and cute girl with a pair of bright eyes. Specially, eyelids are incredible. Our topics were a wide range. Secret probably these were, so silent~
+
+Because I did nothing about our debate yesterday, I had to write some opinions about that. After about 2 hours, I completed 
+the draft, then shared to my friends. Thank you for nuonuo, she thought my opinions were not bad, but a little complicated. She sugggested me to change some words. Finally, she personally changed my opinions from beginning to end. I appreciated nuonuo very much.  
+I checked it out, very logical and fabulous, great!
+
+Funny, learning English words at the same time, could harvest friendship. ike and nuonuo! Thank you!
+
+I will have a debate tomorrow, good luck to me.
 
