@@ -1,5 +1,5 @@
 # FreeBird in Fiji
-Hi, everybody. In this blog I just wanna record my imteresting things, share my thoughts in life and learning spoken English experience.
+Hi, everybody. In this blog I just wanna record my interesting things, share my thoughts in life and learning spoken English experience.
 
 By the way, my English is suck, I don't have enough vocabulary, good grammer and **logical capability**, so, It's possible this blog is mess and doesn't have good points you worth reading, think it over before starting, lol. Maybe with the process of my studying, it will be more and more better, I hope so~
 
@@ -119,7 +119,7 @@ After that, we bought something else and come back to school. I cooked beef meat
 I watched some English videos and then talked with Nuonuo by calling. Awesome! We talked a lot of thing. Haha, my shopping experience, liaison of pharses, huawei and xiaomi, trade war with American, marriage about a Chinese guy and a Sweden girl, and my phone number I am very scared about. Will someone is creepy and crazy call me? No, please don't do that!!! 
 
 By the way, thanks for nuonuo's favors. Wanan!
-### The 10th Day  Friday Aguest 24 2019
+### The 10th Day  Saterday Aguest 24 2019
 
 Saterday is coming, what thing can I do? hahaha, a little boring. Talking with most of Japanese friends is a little tired. I can't catch their points **briskly**. 
 
@@ -130,7 +130,7 @@ Haha, awesome! Liutian told me about her experiences are many interesting and me
 In the afternoon, I walked around nearby school, the weather was great, I took some pictures and had a video call with Duoge was my real friend. At about 7:00pm, I got in touch with Lke by calling, her major is related to English, that's why her accent was excellent! She was laughing all the time, liked to smile very much I guess, haha.  She was so kind I thought, we talked how to learn English, our major, accents and what kind of job each of us wanted to do... Too many funny things we said, I can't remember clearly.  I had learnt a lot of points from calling.We ended the conversation because of bedtime is about to come~
 
 Thanks for your help, wan an.
-### The 11th Day  Friday Aguest 25 2019 
+### The 11th Day  Sunday Aguest 25 2019 
 I am very shamed. Now is 26th. Yeah, you are right, I am **dilatory**. OK, I will pretend to write this diary at 25th.(⋟﹏⋞)
 
 Haha,  I made an appointment with Shin yesterday. We planed to go to an island, Bekana Island which was not far from Lautuka. So at 10:00am, we had been going to Bekana by walk. Secnery along the way is **fabulous**, bule sky and white clouds, **breezy**. We talked as we walked, many questions we had. Do you have the confusion that can't get the meaning directly when you are hearing numbers in English, such as $5.75, phone number 356944300. Haha, let me see, what number you said.
@@ -140,9 +140,39 @@ We'll get at the wharf soon, pay $15 for the return ticket. It just took 15mins 
 The pizza that was sold in a resturant on the island is very luscious. Although we ordered the miduim size one, it was too much. After that we pkayed the table tennis for a while, haha, met some of Japanese friends, we were back to Lautoka at 3:00pm. 
 
 Great short trip! I was on the moon.
-### The 12th Day  Friday Aguest 26 2019 
+### The 12th Day  Monday Aguest 26 2019 
 The calss was reassigned from this week, thank god! My teachers were changed. That's very fantastic my teachers' accent and rythem sounds great.
 
 After class, there was nothing I can do, then just go to toppoCity for shopping with two Jpaanese friends. When I was back to domitory, I had a video calling with Lke, wow, she was so cute and lively, I could hear the sound of laughing all the time. Her personality was so good, I love to talk with her. We hung up in about 30 mins, cause I need help a Japanese friend to translate a letter was for his by from Japanese into Chinese. Certainly, we need have the support  that's talking each other in English.
 
 Nuonuo is going to a new college as a teacher, I hope her all the best!
+### The 13th Day Tuesday Aguest 27 2019 
+It's the different night at which I have a incredible dream. Yeah, haha, I was speaking with someone in English! I woke up so quickly, now just was 5:30am, went up and go to bathroom. Once again, I fell asleep.
+
+When I woke up again, it was already 7:30am. If I hadn't got up immediately, I would miss the first class. Thank god, I caught it. I was going to have the class in a whole day.  But you know, the plan can't keep up with the change. Ren and Takuto told me that they would watch a movie, Lion King. I was excited to hear the arrangement and decided to do together without any hesitation.
+
+So, after lunch at yongbo restaurant, five of us went to the cinema, haha, a little suprised just us in a whole room, some guys put off their shoes, put their feet on the chair in front of us, I took the opportunity to take a photo for the video hall with feet. Without subtitle, as same as I imagined, I could understand the story becauae of knowing whole structure but sometimes not get what they said very well. I think the movie is fantastic, the screen is so real although it was a cartoon. Timon and Pumbba were so funny, haha, I like the wild pig Pumbba, a little silly but very brave and sense of humor. 
+
+I went back school lonely after watching, haha, nice day. Share interesting things I met. A little guy said hello to me in Japanese, I couldn't do a reaction immediately, haha, he was wrong. 
+
+Have a nice day!
+
+### The 14th Day Wednesday Augest 28 2019
+Ahhh, in the afternoon, so terrible my cup was broken by a Japanese guy, it wasn't all his fault, he knocked my cup with water down from a desk, the cup was leaking when I picked up. 
+ 
+ we had a disscusion about some topics, for example, single-sex schools are better for education; all individuals should pay same tax rates, I met the girl I wouldn't like to talk with her, so unfriendly and cold. we had finshed our dailogue quickly,  good move.
+After that, teacher told us to would have a debate at Friday, we chosen the topic by putting hands with closing eyes. Finally, the topic is which is more important in a relationship, love or money? 
+
+So boring debate topic, haha. We dicided to have the ducussion of the debate at Line. Nobody say useful words in our group today, too shame.
+
+After that, I called with Nuonuo, shared the fun I've met today. If there had been some universities of teaching in English, that would have been great. Nuonuo wanted to know whether some Chinese universities have the lessons in English, as far as know, I just known some ones in Hongkong province. we talked 不客气's meaning in Chinese. She have a confusion that was 不 is no. What about客 and 气。Whether she had to memorize it  totally? Or if she known the parts (客， 不， 气) could she still construct a sentence? Why did these two words have to come together to be " happy"? Was there any method for it? Her mind was getting more complicated.
+
+Hahah, I said, I wouldn't like to change to report. So, just copy as record.
+> I am gald to explain that, firstly, 不客气， you are quite right. 不 is no, 客气 in Chinese is terms or phrases. yeah, for example, 客人 is guest. These are fixed collocation. There are some difference between Chinese and English. In English,  a word can express a whole meaning. However, in Chinese, each of Chinese characters has its own meaning, and if you wanna say something, you need use different characters to form words. 
+
+Fighting, my friend!
+
+Haha,with ike, have a brief call, come on! Sleeping now, good night.
+
+### The 15th Day Thursday Augest 29 2019
+
