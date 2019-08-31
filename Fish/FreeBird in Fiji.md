@@ -194,7 +194,6 @@ I want to see sakula. I'll stay quietly all afternoon under the sakula.
 Wait for me.
 Thank you for listening
 
-It had been 2:30pm, rushed out of the classroom and had fun. ike and I had decided to have a video call in this afternoon at yesterday night. So took a hat, got in touch with ike, OK, funny and cute girl with a pair of bright eyes. Specially, eyelids are incredible. Our topics were a wide range. Secret probably these were, so silent~
 
 Because I did nothing about our debate yesterday, I had to write some opinions about that. After about 2 hours, I completed 
 the draft, then shared to my friends. Thank you for nuonuo, she thought my opinions were not bad, but a little complicated. She sugggested me to change some words. Finally, she personally changed my opinions from beginning to end. I appreciated nuonuo very much.  
