@@ -203,3 +203,104 @@ Funny, learning English words at the same time, could harvest friendship. ike an
 
 I will have a debate tomorrow, good luck to me.
 
+### The 16th Day Friday Augest 30 2019
+In the morning class, all of classmates were absent except for Shitora and me. Lena was also shocked and asked both of us what thing we wanted to learn. After publicing yesterday's homework answer, we learnt a tongue twisters, Doctor Doctoring.
+> When a doctor doctors a doctor, dose the doctor doing the doctoring doctor as the doctor being the doctored or dose the doctor doing the doctoring as he wants to doctor?
+
+It must have been a little akward if we sat there and do nothing. I will get the conclusion of debate at afternoon class, I asked Lena to help me correct some mistakes. Lena suggested me to stand up and speech loudly, she would listen mime, meanwhile, have a chance to improve my pronunciation. Good point, I took it. I finished my conclusion more than 2 mins, after her correction, Lena let me do again. I took care of it in 2 mins!!! Although Lena didn't understand completely, she encouraged me for at least 5 times. I was very appreciated her.
+
+In the afternoom, the debate was going on in a tense and intense way. That was a debate full of gunpower! Although we put all of widsom and talent into the debate, we lost in the end. I wish our debate like the same thing what I descirbed. But too shame, the truth is opposite. With all due respect,  I was very disappointed, our team did nothing but me. Sry about that. Where was I, just me... I had prepared the debate since yesterday, we need talk and share our opinions in the Line group, they just said three or four sebtences, so ridiculous. But I had tried my best, feel no shame.
+
+By the way, the debate started before, I heard my classmates had passed the move up test, hahahahahahha, interesting.
+
+After that, Shin and I went to the supermarket to buy a whole chicken whose weight was 2.1kg and price was more cheaper than one in China.  When we went back school, the heavy rain suddenly poured me and Shin, and we walked for almost 20 minutes in the heavy rain, and took a shower immediately after arriving at school in case of a cold.  
+
+At night, I cooked Chinese traditional Chicken with carrots and potatoes, so yummy, we agreed to continue in next Friday! I was very enjoyable for talking with them in English~
+
+I will go to Denarau Island at Nadi with Mayumi tomorrow! Good night!
+
+### The 17th Day Saturday Augest 31 2019
+Saturday!!! After breakfast, we firstly went to Vodafone to charge our bus card and then went to TappooCity to buy a big bottle of water. Next, go to bus station, this's the first time I took a bus in Fiji. Bus was so simple and crude, no air conditioner, even without window glass, I was bared on bus! It took more than 1.5 hours from Lautoka to that island. The music is very loud, a little noisy, I can't say anything with Mayumi normally. Fortunately, the view outside the window was beautiful, I took some pics. And I found a very cute girl was about 6~
+
+Finally, we arrived at Denarau Island. Mayumi was a staff in FreeBird, actually, his task was that he need interview tourists 3 groups at least. I was responsible for taking pics when he was interviewing others. Now, I have to say, Mayomi's listening skills are so unbelievable! When we were talking with tourists, he could have actions directly and quickly, and then kept on talking. So awesome! I couldn't get their meaning very well, I need think for seconds, he made me eye-opening!
+
+The weather was so hot today, after end up doing, I back to Nadi immediately. We were too hungry to look for restaurant, we had our lunch in a Indian one. What a very terrible experience to me 😂. 难吃到他姥姥家了，还傻贵。。。
+
+We were back to school at 5:00pm. It's been a tiring day, I need have a rest early. 
+
+### The 17th Day Sunday September 1 2019
+Cause of my fault, nuonuo was ready to block me everywhere if I did again. We talked for a long time. I had been sleeping again at 9am, until about 12am I woke up. I didn't have a good diet today. I didn't feel hungry at all.
+
+At night, I tried to recover my hardisk, it was clear out last Saturday due to Jonsu did unconsciously. Thank god I still had a chance to get my data back!
+
+Thank you to all my friends! Today was not a good day, but it's okay, end!
+
+### The 18th Day Monday September 2 2019
+
+上午上课来了两个新同学，一个是大学女孩，一个退休老人
+
+中午得知来了一个中国新生，下午一块去帮她买些东西，一起去吃了韩国烤肉店，感觉有点贵
+晚上把菠萝切好之后，给他们吃了菠萝吃了菠萝
+和诺诺语音学习英语和拼音，她快被中文的音调逼疯了，直到最后，我也不是特别确定，她掌握了没有。
+睡觉
+### The 19th Day Tuesday September 3 2019
+It's very normal day to me, a new student came our classroom in the morning. Her accent was more better than many Japanese friends, 18 years old, very young. I was jealous of her,  haha, I want to be as same as her age.
+
+And the I heard a terrible thing about a girl was living in dormitary, was robbed by 4 persons, two guys and two girls. So don't walk alone on the street at night in Fiji. Take a taxi, please.
+
+Learning slangs is our course in the afternoon. I need write a play and preform. So, we got a very ridiculous and funny dailogue.
+>  Place: Supermarket   
+>  Ren(male)  B: Andy  Azusa(femal)
+>  A and B are a couple.  
+>  One day, Ren and Andy go shopping hand in hand. They was seen by Azusa in a while.
+>  
+>  Story starts from here.
+>  Azusa: God, what's your problem? Ren
+>  Ren   : Oh, Azusa, listen to me explain, the truth wasn't that you saw.
+>  Azusa: Oh, it's enough. You broken my heart. I just wanna know. Who the hell is the guy?
+>  Andy : Hello, my friend. I am Andy, Ren's boyfriend.
+>  Ren  : When we met each other, you know, stars flying around my head. Even though I still love you, so sorry.
+>  Andy  : Emm, nice to meet ...
+>  Azusa: Stop!!! Get out of my life!
+
+After class, I made the dinner and shared with Chinese friends, it's a long time to me not to speak so much Chinese. Dinner is great, but I prefer to speak English to speak Chinese here. Haha
+
+### The 20th Day Wednesday September 4 2019
+It rained all day that's my first day I ever met in Fiji, hahah, I have stayed here for 20 days.
+Lena who's my teacher was absent in the first two classes in the morning. We went to room 12 at that time, Anne was a funny teacher who can attract our attention with humorous teaching methods. 
+I leant a tongue twisters to help us to understand f and v.
+> I feel blue like a river stuck on Glue
+> I feel cool like a lion on stool
+> I feel numb like a drunk drinking rum
+> I feel thin like a short hymn
+> I feel very fine just like you
+
+Then back to our classroom leanring some grammer. In the afternoon, I chose my speech topic again, I decided to speak a little easy but more important to me, **The best advice I evet.got** I am very appreciated my friends gave me hands!  
+
+I believe I will get a good scores for my up test!
+
+### The 21th Day Thursday September 5 2019
+After class in the morning, I absenced the second two classes, because the test at 12:00 to 13:00, I planed to have lunch in advance. 
+
+I had the test in about 50 mins, so tight, I had to write my answer quickly, I found the listening in the test was more easier than that in the first time, I got the points more exact, maybe my listening skills were improving 🙈. I thought I would have a not bad scores this time!
+
+In the afternoon, Illy gave me a great comment about my speech, awesome speech!!! Thank you for Illy's help and comment. 
+
+After class, I went to green grocers market to buy some carrots and unions, a little expensive to me, but papaya and pineapple are so cheap! I love them~ 
+
+Just called with Juneikey about 15 mins, she had to do other thing, see you.
+
+Cooking beef with carrots and onions, don't add sugar😂, remmber that.
+
+I hope I will move up! I am very confident to pass this test! A little easy to me.  Good night!
+
+### The 22th Day Friday September 6 2019
+As soon as I entered the classroom in the morning, the teacher Lena said there was good news for me! What's the good news? Lena didn't say it just told me I would get it at noon. Haha, I already guessed I had passed the exam!
+ 
+But I didn't guess I would have gotten level 6, if Meimei was the schoolmatster hadn't talked with me. Great! I was so excited, said the good news to my friends I met. Hahah, I will probably meet teachers whose has better accents and pronunciation. I hope so, let's meet next week!
+
+Ray and Ren also passed the exam! I am so glad for them. Maybe Ren will have a test again next week, good luck!
+
+Fruday again, this time, we bought beef as our dinner. After shopping with Shin, I cooked the dinner from 4:00pm to 7:00pm. It's a very happy thing to have dinner with my friends, but it's not good that I eat too much. Until now, I've felt too full. I need be careful about my stomach. Don't eat too much!
+
+I am so sleepy now, but I don't wanna go to bed when I am too full. Oh, god, I am ready to sleep now, I have felt sleep from 5 times from just now on...  Wan an! 
