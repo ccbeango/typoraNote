@@ -304,3 +304,71 @@ Ray and Ren also passed the exam! I am so glad for them. Maybe Ren will have a t
 Fruday again, this time, we bought beef as our dinner. After shopping with Shin, I cooked the dinner from 4:00pm to 7:00pm. It's a very happy thing to have dinner with my friends, but it's not good that I eat too much. Until now, I've felt too full. I need be careful about my stomach. Don't eat too much!
 
 I am so sleepy now, but I don't wanna go to bed when I am too full. Oh, god, I am ready to sleep now, I have felt sleep from 5 times from just now on...  Wan an! 
+
+### The 23th Day Saturday September 7 2019
+I haven't updated my blog about 7 days, just noted simple records. I don't have any plans today, I wanna enrich my blog. It isn't a good idea for writing recent things in one day, keeping on updating every day is **essential**, I completed it after 3 hours, if I continue to update, the blog will lose its own singanifance. 
+
+I heard there would be 37 new students to come here today at 3 days ago. As excepted, at noon I saw a lot of students in the hallway on second floor. One of them would be my new roommate. I had prayed for three days, I didn't hope he was creepy. At about 2:00pm, he came here. Thank god, the guy Yusuke is a good guy I guess. He looks like cool with blond hair, perfume he used. Not bad!
+
+I ate too much yesterday night, I feel very terrible until now.😂 So I hung around with Rui at the small city. We bought nothing although we entered 4 or 5 stores.
+
+I had a call with Juneikey at about 7:00pm. Thank you for understanding me. Today there was a heavy wind, I felt cold with my coat. We ended the call then.
+
+I don't know why my right heel has been cracked. I feel a little painful when I am walking. So weird, I think the weather is't dry. 
+I boiled water in a kettle. Then, when I was washing my feet, I was on the phone with nuonuo. The feeling was so cool, I finally washed my feet with hot water! 
+
+Now, it's a little late, see you~
+
+
+### The 24th Day Sunday September 8 2019
+
+一起坐车去Sigatoka，去海滩玩  小孩叫sola
+还裸奔了 然后爬沙丘 一起跳沙坑 拍照 最后走的时候给了小孩五块  坐上五点的车回到劳托卡 一起去168吃中餐 麻婆豆腐 土豆丝 酸菜鱼 回锅肉
+
+### The 25th Day Monday September 9 2019
+第一天到六级的班级，加上我，班里总共有8个人，但是会毕业四个
+有个日本小哥Ryo口音很棒
+
+
+### The 25th Day Monday September 9 2019
+
+
+
+
+#  Set Sail From Fiji 
+That was a super sensible move I chose 4 months ago. There are endless oppotunities for change or alter my course or path throughout life. What I am definitely sure learning English in Fiji is the most wisest thing I've ever done. 
+
+Many times I've always told myself '永远不要做井底之蛙', which means a person with a limited outlook. Before coming here, I may make myself a bit or even much stressful and nervous. I was getting more and more weaker.  Was that how I was going to live my life? No, it's absolutely unaccepted. I could't imagine the things would be this at the rest of my life.
+
+That's exactly what I was trying to say, this time I saw a distinctly world from the point of a view of person who lived here for almost three months. I've got rid of some immature or even naive thoughts. Sometimes it's extremely necessary that jumping out of fixed and steady position then look at your life from Fiji angle. Take it easy, life is fantastic!
+
+I really appreciated everyone I met here. 
+
+Thank you, my level 4 teacher: **Lena**. I love your lessons during my level 4 time, I love your amazing voice! My level 6 teachers: **Pinkey** and **Illy**, telling me if you come to China. You are my good teachers and helpful friends.
+
+Thank you **Shin**, being always kind and patientlly commuciated with me. I had a great life during all that time. I wanna get you again in the future. Japan or some European countries? LOL~
+
+Thank you Okinawa boy **Ren**, It's really nice to get along with you. I hope we can meet again.
+
+Thank you **Azusa**, having glamourous personality and being always full of infectious smile and enthusiasm I could feel every time.  
+Taking good cares of another's heart. You are doing great.
+
+Thank you **Mei**, being sedate but funny girl. I am so glad as your teammate as we were doing some posts.
+
+Thanks to **Shiroちゃん**, I hope we can meet in Shanghai next year, I am waiting for you! It was a pleasure to meet the sincere Tokyo boy. But Shin said you were not from Tokyo, was it true?  Hahaha
+
+Meanwhile, thank you my Turkish friend **Nuonuo** and my Indonesian friend **Juneikey** who were willing to talk with me in English I got a lot. You mean a lot to me. I hope we can keep having the companionship all the time.
+
+My dormitory's Mama always calls me, Andy! Cooking! Cooking! Andy, every time you are cooking! Hahaha, thank you very much for giving me lots of assistance.
+
+Mayomi, Yusuke(my roommate), Harumi, Kento, Futa, Daiki and other dormitory's guys, it's so luckily meet you guys here. Thank you! 
+
+Finally, thanks to my Chinese Xiaohuoban, how lucky I am to meet you guys here. I like to chat with Rui, and then opened my eyes , every time I learnt new points. Thank you Coco and Zoe for sharing yummy food with me, treating me like my elder sisters. I liked to chat with Ponyo in English without confusion and pressure. As well, having a great atmosphere when I talked with you in Chinese, though not much, but I really appreciated it, and your photos for us. Certainly, thanks to Ken, our older brother.
+ 
+I don't want to say goodbye, though all good things come to an end. 
+
+我们有缘再见。  
+
+
+
+
