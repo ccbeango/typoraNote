@@ -6,7 +6,7 @@ date: 2018-07-02 11:24:10
 
 categories: JavaScript
 
-tag: JavaScript 
+tag: JavaScript
 
 ---
 
